@@ -1,0 +1,25 @@
+{
+  "month": "2026-07",
+  "days": {
+    "2026-07-01": {
+      "date": "2026-07-01",
+      "recordsPath": "archive/reports/2026/07/2026-07-01.json",
+      "reportCount": 1,
+      "activeUsers": 1,
+      "totalParsed": 112,
+      "submitted": 28,
+      "failed": 77,
+      "whitelistSkipped": 7,
+      "durationSeconds": 710,
+      "taskTypes": {
+        "daily": 0,
+        "temp": 1,
+        "local": 0,
+        "unknown": 0
+      },
+      "lastSeenAt": "2026-07-01T20:59:41.024929Z",
+      "updatedAt": "2026-07-01T12:59:43.341538Z"
+    }
+  },
+  "updatedAt": "2026-07-01T12:59:43.341545Z"
+}
