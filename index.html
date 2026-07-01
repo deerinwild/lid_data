@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <title>任务数据看板 | 按微博UID统计</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Helvetica Neue", Helvetica, Arial, sans-serif; background: #f5f5f7; color: #1d1d1f; padding: 20px; line-height: 1.45; }
+    .container { max-width: 1440px; margin: 0 auto; }
+    .card, .stat-card, .toolbar, .detail-section { background: #fff; border-radius: 18px; box-shadow: 0 2px 8px rgba(0,0,0,.04), 0 4px 12px rgba(0,0,0,.03); overflow: hidden; }
+    .header { padding: 24px 28px 20px; }
+    h1 { font-size: 28px; font-weight: 650; letter-spacing: -.3px; margin-bottom: 6px; }
+    .subtitle { font-size: 14px; color: #6e6e73; margin-bottom: 16px; }
+    .badge-group { display: flex; gap: 12px; flex-wrap: wrap; }
+    .badge { background: #f5f5f7; padding: 5px 12px; border-radius: 30px; font-size: 12px; font-weight: 600; }
+    .stats-grid { display: grid; grid-template-columns: minmax(280px, 360px) 1fr; gap: 16px; margin: 20px 0; }
+    .stat-header, .section-title { padding: 16px 20px; font-weight: 650; font-size: 17px; border-bottom: .5px solid #e5e5ea; background: #fff; display: flex; justify-content: space-between; align-items: center; gap: 12px; }
+    .stat-body { padding: 20px; }
+    .global-stats { display: flex; flex-wrap: wrap; gap: 16px; justify-content: space-between; }
+    .stat-item { flex: 1; min-width: 80px; text-align: center; }
+    .stat-number { font-size: 30px; font-weight: 650; letter-spacing: -.5px; margin-bottom: 4px; }
+    .stat-label { font-size: 13px; color: #6e6e73; }
+    .user-table-wrapper { overflow-x: auto; max-height: 420px; overflow-y: auto; }
+    .toolbar { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 16px; padding: 16px 20px; margin: 20px 0 16px; }
+    .filter-group, .btn-group, .toggle { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; font-size: 14px; }
+    select, input[type="date"] { background: #f5f5f7; border: .5px solid #d9d9df; border-radius: 40px; padding: 8px 16px; font-size: 13px; font-family: inherit; color: #1d1d1f; cursor: pointer; outline: none; }
+    .btn { background: #f5f5f7; border: none; border-radius: 40px; padding: 8px 18px; font-size: 13px; font-weight: 600; color: #1d1d1f; cursor: pointer; transition: .2s; }
+    .btn:hover { background: #e5e5ea; }
+    .btn-primary { background: #1d1d1f; color: #fff; }
+    .btn-primary:hover { background: #2c2c2e; }
+    .table-wrapper { overflow-x: auto; width: 100%; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { padding: 12px; text-align: left; border-bottom: .5px solid #e5e5ea; white-space: nowrap; }
+    th { background: #fff; font-weight: 650; cursor: pointer; user-select: none; position: sticky; top: 0; }
+    tr:hover td { background: #f9f9fb; }
+    .loading, .error, .empty { text-align: center; padding: 40px 20px; color: #6e6e73; background: #fff; }
+    .error { color: #ff3b30; }
+    .notice { background: #fff7ed; color: #9a3412; border: .5px solid #fed7aa; border-radius: 14px; padding: 12px 16px; margin: 12px 0; font-size: 13px; }
+    .footer { text-align: center; padding: 24px 0 12px; font-size: 12px; color: #8e8e93; }
+    .switch { position: relative; display: inline-block; width: 36px; height: 20px; }
+    .switch input { opacity: 0; width: 0; height: 0; }
+    .slider { position: absolute; cursor: pointer; inset: 0; background-color: #ccc; transition: .2s; border-radius: 20px; }
+    .slider:before { position: absolute; content: ""; height: 16px; width: 16px; left: 2px; bottom: 2px; background: white; transition: .2s; border-radius: 50%; }
+    input:checked + .slider { background: #1d1d1f; }
+    input:checked + .slider:before { transform: translateX(16px); }
+    @media (max-width: 768px) { body { padding: 12px; } .stats-grid { grid-template-columns: 1fr; } .toolbar { align-items: stretch; flex-direction: column; } .filter-group, .btn-group { align-items: stretch; } select, input[type="date"], .btn { width: 100%; } }
+  </style>
+</head>
+<body>
+<div class="container">
+  <div class="card header">
+    <h1>任务数据看板 <span style="font-size:16px;">(按微博UID统计)</span></h1>
+    <div class="subtitle" id="dataSourceText">个人统计 & 上报明细</div>
+    <div class="badge-group">
+      <span class="badge">自动同步</span><span class="badge">按日归档</span><span class="badge">按月索引</span><span class="badge">去重统计</span><span class="badge">微博聚合</span><span class="badge">本地兼容</span>
+    </div>
+  </div>
+
+  <div id="noticeBox"></div>
+
+  <div class="stats-grid">
+    <div class="stat-card">
+      <div class="stat-header">
+        <span>全局概览</span>
+        <div class="toggle">
+          <span style="font-size:12px; font-weight:400;">去重模式</span>
+          <label class="switch"><input type="checkbox" id="dedupToggle"><span class="slider"></span></label>
+        </div>
+      </div>
+      <div class="stat-body" id="globalStats"><div class="loading">加载中…</div></div>
+    </div>
+    <div class="stat-card">
+      <div class="stat-header">
+        <span>个人统计 (按微博UID)</span>
+        <span style="font-size:12px; font-weight:400;" id="dedupIndicator"></span>
+      </div>
+      <div class="user-table-wrapper" id="userStatsTable"><div class="loading">加载中…</div></div>
+    </div>
+  </div>
+
+  <div class="toolbar">
+    <div class="filter-group">
+      <span>数据范围</span>
+      <select id="rangeMode">
+        <option value="latest">最新一天</option>
+        <option value="day">按日</option>
+        <option value="month">按月</option>
+      </select>
+      <input id="dateInput" type="date" />
+      <button id="loadRangeBtn" class="btn">加载</button>
+      <span>任务类型</span>
+      <select id="typeFilter">
+        <option value="">全部</option>
+        <option value="daily">日常任务</option>
+        <option value="temp">临时任务</option>
+        <option value="local">本地任务</option>
+      </select>
+      <span id="recordCount" style="font-size:13px;color:#6e6e73;"></span>
+    </div>
+    <div class="btn-group">
+      <button id="downloadCsvBtn" class="btn btn-primary">下载 CSV</button>
+      <button id="downloadJsonBtn" class="btn">下载 JSON</button>
+      <button id="refreshBtn" class="btn">刷新</button>
+    </div>
+  </div>
+
+  <div class="detail-section">
+    <div class="section-title">上报明细 <span style="font-size:12px;font-weight:400;">(原始数据，不受去重和映射影响)</span></div>
+    <div class="table-wrapper" id="detailTableContainer"><div class="loading">加载中…</div></div>
+  </div>
+
+  <div class="footer">
+    数据优先读取 latest.json，再按 archive/reports/年/月/日期.json 加载。<br>
+    去重规则：同一用户，若总解析数和白名单数相同，且记录时间差 ≤ 1小时，则只保留提交数最高的记录。<br>
+    本地任务不参与去重，始终保留。
+  </div>
+</div>
+
+<script>
+const RAW_BASE = './';
+const MAPPING_URL = RAW_BASE + 'mapping.json';
+const ONE_HOUR = 3600 * 1000;
+
+let dedupEnabled = false;
+let allRecords = [];
+let userMapping = {};
+let reverseMapping = new Map();
+let currentSortColumn = 'timestamp';
+let currentSortOrder = 'desc';
+let currentTypeFilter = '';
+let currentLoadMode = 'latest';
+let currentSourceLabel = '';
+
+function $(id) { return document.getElementById(id); }
+function esc(s) { return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])); }
+function todayKey() {
+  const d = new Date();
+  const y = d.getFullYear();
+  const m = String(d.getMonth() + 1).padStart(2, '0');
+  const day = String(d.getDate()).padStart(2, '0');
+  return `${y}-${m}-${day}`;
+}
+function normalizePath(path) {
+  if (!path) return '';
+  if (path.startsWith('http') || path.startsWith('./')) return path;
+  return RAW_BASE + path;
+}
+function withCacheBust(path) {
+  const url = normalizePath(path);
+  return `${url}${url.includes('?') ? '&' : '?'}ts=${Date.now()}`;
+}
+async function fetchJSON(path) {
+  const res = await fetch(withCacheBust(path), { cache: 'no-store' });
+  if (!res.ok) throw new Error(`${path}: HTTP ${res.status}`);
+  return await res.json();
+}
+async function fetchFirst(paths) {
+  const errors = [];
+  for (const path of paths.filter(Boolean)) {
+    try { return { data: await fetchJSON(path), path }; }
+    catch (err) { errors.push(err.message || String(err)); }
+  }
+  throw new Error(errors.join('；'));
+}
+function recordsFromPayload(data) {
+  if (Array.isArray(data)) return data.map(normalizeRecord).filter(Boolean);
+  if (data && Array.isArray(data.records)) return data.records.map(normalizeRecord).filter(Boolean);
+  if (data && typeof data === 'object' && data.userUid) return [normalizeRecord(data)];
+  return [];
+}
+function pathsForDate(date) {
+  const [y, m] = date.split('-');
+  return [
+    `archive/reports/${y}/${m}/${date}.json`,
+    `archive/reports/${date}.json`,
+    `reports/${date}.json`,
+    `data/${date}.json`
+  ];
+}
+function pathsForMonth(date) {
+  const [y, m] = date.split('-');
+  const ym = `${y}-${m}`;
+  return [
+    `archive/summary/${y}/${ym}.json`,
+    `archive/summary/${ym}.json`,
+    `summary/${ym}.json`,
+    `monthly/${ym}.json`
+  ];
+}
+function latestRecordsPath(latest) {
+  return latest.latestRecordsPath || latest.latestCounterPath || latest.recordsPath || latest.counterPath || (latest.paths && (latest.paths.records || latest.paths.counter)) || '';
+}
+function latestDateFromIndex(latest) {
+  return latest.latestDate || (Array.isArray(latest.days) && latest.days[0] && latest.days[0].date) || '';
+}
+function setNotice(text, isError = false) {
+  $('noticeBox').innerHTML = text ? `<div class="notice" style="${isError ? 'color:#ff3b30;' : ''}">${esc(text)}</div>` : '';
+}
+function normalizeTaskType(type) {
+  const raw = String(type || '').trim();
+  if (raw === 'manual') return 'local';
+  return raw || 'unknown';
+}
+function taskTypeLabel(type) {
+  const t = normalizeTaskType(type);
+  if (t === 'daily') return '日常任务';
+  if (t === 'temp') return '临时任务';
+  if (t === 'local') return '本地任务';
+  return t;
+}
+function normalizeRecord(record) {
+  if (!record || typeof record !== 'object') return null;
+  return { ...record, taskType: normalizeTaskType(record.taskType) };
+}
+function safeDateText(value) {
+  if (!value) return '';
+  const d = new Date(value);
+  if (Number.isNaN(d.getTime())) return String(value);
+  return d.toLocaleString();
+}
+function getDisplayUser(uid) { return reverseMapping.get(String(uid)) || uid; }
+async function loadMapping() {
+  try {
+    userMapping = await fetchJSON(MAPPING_URL);
+    reverseMapping.clear();
+    for (const [weiboUser, doubanUids] of Object.entries(userMapping || {})) {
+      for (const uid of doubanUids || []) reverseMapping.set(String(uid), weiboUser);
+    }
+  } catch (e) {
+    console.warn('加载映射文件失败，将按原始豆瓣UID显示', e);
+    userMapping = {}; reverseMapping.clear();
+  }
+}
+async function loadLatestData() {
+  const latest = await fetchJSON('latest.json');
+  const date = latestDateFromIndex(latest) || todayKey();
+  const path = latestRecordsPath(latest) || (latest.days && latest.days[0] && latest.days[0].recordsPath);
+  if (!path) throw new Error('latest.json 中没有 latestRecordsPath/recordsPath');
+  const day = await fetchJSON(path);
+  $('dateInput').value = date;
+  currentSourceLabel = `最新一天 ${date} · ${path}`;
+  return recordsFromPayload(day);
+}
+async function loadDayData(date) {
+  const result = await fetchFirst(pathsForDate(date));
+  currentSourceLabel = `按日 ${date} · ${result.path}`;
+  return recordsFromPayload(result.data);
+}
+async function loadMonthData(date) {
+  const [y, m] = date.split('-');
+  const ym = `${y}-${m}`;
+  const summaryResult = await fetchFirst(pathsForMonth(date));
+  const summary = summaryResult.data || {};
+  const dayItems = Object.entries(summary.days || {})
+    .map(([day, info]) => ({ day, info: info || {} }))
+    .filter(x => /^\d{4}-\d{2}-\d{2}$/.test(x.day))
+    .sort((a, b) => a.day.localeCompare(b.day));
+  if (!dayItems.length) throw new Error(`${summaryResult.path} 中没有 days 数据`);
+  const records = [];
+  const failed = [];
+  for (const item of dayItems) {
+    const candidatePaths = [item.info.recordsPath, ...pathsForDate(item.day)].filter(Boolean);
+    try {
+      const dayResult = await fetchFirst(candidatePaths);
+      records.push(...recordsFromPayload(dayResult.data));
+    } catch (err) {
+      failed.push(`${item.day}: ${err.message || err}`);
+    }
+  }
+  currentSourceLabel = `按月 ${ym} · ${summaryResult.path}`;
+  if (failed.length) setNotice(`部分日期读取失败：${failed.slice(0, 3).join('；')}${failed.length > 3 ? '……' : ''}`, true);
+  else setNotice('');
+  return records;
+}
+async function loadAllDataByMode() {
+  const mode = $('rangeMode').value;
+  const date = $('dateInput').value || todayKey();
+  currentLoadMode = mode;
+  if (mode === 'latest') return await loadLatestData();
+  if (mode === 'month') return await loadMonthData(date);
+  return await loadDayData(date);
+}
+
+function deduplicateRecords(records) {
+  const userGroups = new Map();
+  for (const r of records) {
+    const uid = String(r.userUid || '');
+    if (!uid) continue;
+    if (!userGroups.has(uid)) userGroups.set(uid, []);
+    userGroups.get(uid).push(r);
+  }
+  const result = [];
+  for (const userRecs of userGroups.values()) {
+    const localRecs = userRecs.filter(r => normalizeTaskType(r.taskType) === 'local');
+    const normalRecs = userRecs.filter(r => normalizeTaskType(r.taskType) !== 'local');
+    result.push(...localRecs);
+    const sorted = [...normalRecs].sort((a,b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime());
+    const used = new Array(sorted.length).fill(false);
+    for (let i = 0; i < sorted.length; i++) {
+      if (used[i]) continue;
+      const current = sorted[i];
+      const sameGroup = [i];
+      for (let j = i + 1; j < sorted.length; j++) {
+        if (used[j]) continue;
+        const other = sorted[j];
+        if (other.totalParsed !== current.totalParsed || other.whitelistSkipped !== current.whitelistSkipped) continue;
+        if (Math.abs(new Date(current.timestamp).getTime() - new Date(other.timestamp).getTime()) <= ONE_HOUR) sameGroup.push(j);
+      }
+      let bestIdx = sameGroup[0];
+      for (const idx of sameGroup) if ((sorted[idx].submitted || 0) > (sorted[bestIdx].submitted || 0)) bestIdx = idx;
+      result.push(sorted[bestIdx]);
+      sameGroup.forEach(idx => used[idx] = true);
+    }
+  }
+  return result;
+}
+
+function computeUserStats(records) {
+  const map = new Map();
+  for (const r of records) {
+    const uid = String(r.userUid || '');
+    if (!uid) continue;
+    const displayUser = getDisplayUser(uid);
+    if (!map.has(displayUser)) {
+      map.set(displayUser, { displayUser, doubanUids: new Set(), total: 0, submitted: 0, failed: 0, whitelistSkipped: 0, totalDuration: 0, taskCount: 0, dailyCount: 0, tempCount: 0, localCount: 0 });
+    }
+    const s = map.get(displayUser);
+    s.doubanUids.add(uid);
+    s.total += (r.submitted || 0) + (r.failed || 0) + (r.whitelistSkipped || 0);
+    s.submitted += r.submitted || 0;
+    s.failed += r.failed || 0;
+    s.whitelistSkipped += r.whitelistSkipped || 0;
+    s.totalDuration += r.durationSeconds || 0;
+    s.taskCount++;
+    const t = normalizeTaskType(r.taskType);
+    if (t === 'daily') s.dailyCount++;
+    else if (t === 'temp') s.tempCount++;
+    else if (t === 'local') s.localCount++;
+  }
+  return Array.from(map.values()).map(s => ({ ...s, doubanUids: Array.from(s.doubanUids).join(', '), avgDuration: s.taskCount ? Math.round(s.totalDuration / s.taskCount) : 0 })).sort((a,b) => b.submitted - a.submitted);
+}
+
+function renderGlobalStats(records, userStats) {
+  const recordsForGlobal = dedupEnabled ? deduplicateRecords(records) : records;
+  const totalTasks = recordsForGlobal.length;
+  const totalSubmitted = recordsForGlobal.reduce((s,r) => s + (r.submitted || 0), 0);
+  const totalFailed = recordsForGlobal.reduce((s,r) => s + (r.failed || 0), 0);
+  const totalWhitelist = recordsForGlobal.reduce((s,r) => s + (r.whitelistSkipped || 0), 0);
+  $('globalStats').innerHTML = `<div class="global-stats">
+    <div class="stat-item"><div class="stat-number">${totalTasks}</div><div class="stat-label">上报次数</div></div>
+    <div class="stat-item"><div class="stat-number">${userStats.length}</div><div class="stat-label">参与人数</div></div>
+    <div class="stat-item"><div class="stat-number">${totalSubmitted}</div><div class="stat-label">成功提交</div></div>
+    <div class="stat-item"><div class="stat-number">${totalFailed}</div><div class="stat-label">失败</div></div>
+    <div class="stat-item"><div class="stat-number">${totalWhitelist}</div><div class="stat-label">白名单跳过</div></div>
+  </div>`;
+}
+function renderUserStatsTable(userStats) {
+  if (!userStats.length) { $('userStatsTable').innerHTML = '<div class="empty">暂无数据</div>'; return; }
+  let html = `<table><thead><tr><th>用户(微博)</th><th>关联豆瓣UID</th><th>上报次数</th><th>已处理总数</th><th>成功</th><th>失败</th><th>白名单跳过</th><th>平均耗时(s)</th><th>日常/临时/本地</th></tr></thead><tbody>`;
+  for (const u of userStats) html += `<tr><td><strong>${esc(u.displayUser)}</strong></td><td><span style="font-size:11px;color:#6e6e73;">${esc(u.doubanUids)}</span></td><td>${u.taskCount}</td><td>${u.total}</td><td style="font-weight:600;">${u.submitted}</td><td>${u.failed}</td><td>${u.whitelistSkipped}</td><td>${u.avgDuration}</td><td>${u.dailyCount}/${u.tempCount}/${u.localCount}</td></tr>`;
+  $('userStatsTable').innerHTML = html + '</tbody></table>';
+  $('dedupIndicator').textContent = dedupEnabled ? '去重已启用' : '';
+}
+function sortRecords(records, col, order) {
+  return [...records].sort((a,b) => {
+    let va = a[col] ?? '', vb = b[col] ?? '';
+    if (['totalParsed','submitted','failed','whitelistSkipped','durationSeconds'].includes(col)) { va = Number(va); vb = Number(vb); }
+    if (col === 'userUid') { va = getDisplayUser(va); vb = getDisplayUser(vb); }
+    if (col === 'taskType') { va = taskTypeLabel(va); vb = taskTypeLabel(vb); }
+    if (col === 'timestamp' || col === 'received_at') { va = new Date(va).getTime() || 0; vb = new Date(vb).getTime() || 0; }
+    return order === 'asc' ? (va > vb ? 1 : -1) : (va < vb ? 1 : -1);
+  });
+}
+function renderDetailTable() {
+  let filtered = currentTypeFilter ? allRecords.filter(r => normalizeTaskType(r.taskType) === currentTypeFilter) : allRecords;
+  const sorted = sortRecords(filtered, currentSortColumn, currentSortOrder);
+  const headers = ['用户(微博)', '任务类型', '解析总数', '提交成功', '失败', '白名单跳过', '耗时(秒)', '上报时间', '服务器接收时间'];
+  const keys = ['userUid', 'taskType', 'totalParsed', 'submitted', 'failed', 'whitelistSkipped', 'durationSeconds', 'timestamp', 'received_at'];
+  let html = '<table id="detailTable"><thead><tr>';
+  for (let i = 0; i < headers.length; i++) {
+    const key = keys[i], arrow = key === currentSortColumn ? (currentSortOrder === 'asc' ? ' ▲' : ' ▼') : '';
+    html += `<th data-key="${key}">${headers[i]}${arrow}</th>`;
+  }
+  html += '</tr></thead><tbody>';
+  for (const row of sorted) {
+    html += '<tr>';
+    for (const k of keys) {
+      let val = row[k] ?? '';
+      if (k === 'userUid') val = getDisplayUser(val);
+      if (k === 'taskType') val = taskTypeLabel(val);
+      if (k === 'timestamp' || k === 'received_at') val = safeDateText(val);
+      html += `<td>${esc(val)}</td>`;
+    }
+    html += '</tr>';
+  }
+  html += '</tbody></table>';
+  $('detailTableContainer').innerHTML = html;
+  $('recordCount').textContent = `共 ${sorted.length} 条记录`;
+  $('dataSourceText').textContent = `${currentSourceLabel || '数据已加载'}；当前任务类型筛选：${currentTypeFilter ? taskTypeLabel(currentTypeFilter) : '全部'}`;
+  document.querySelectorAll('#detailTable th').forEach(th => th.addEventListener('click', () => {
+    const key = th.getAttribute('data-key');
+    if (currentSortColumn === key) currentSortOrder = currentSortOrder === 'asc' ? 'desc' : 'asc';
+    else { currentSortColumn = key; currentSortOrder = 'asc'; }
+    renderDetailTable();
+  }));
+}
+function exportToCSV(records) {
+  const headers = ['userUid','taskType','totalParsed','submitted','failed','whitelistSkipped','durationSeconds','timestamp','received_at'];
+  const rows = records.map(r => headers.map(h => {
+    const v = h === 'taskType' ? taskTypeLabel(r[h]) : (r[h] ?? '');
+    return `"${String(v).replace(/"/g, '""')}"`;
+  }).join(','));
+  const blob = new Blob(['\uFEFF' + [headers.join(','), ...rows].join('\n')], { type: 'text/csv;charset=utf-8;' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `lid_data_${new Date().toISOString().slice(0,19).replace(/:/g, '-')}.csv`; a.click(); URL.revokeObjectURL(a.href);
+}
+function exportToJSON(records) {
+  const blob = new Blob([JSON.stringify(records, null, 2)], { type: 'application/json' });
+  const a = document.createElement('a'); a.href = URL.createObjectURL(blob); a.download = `lid_data_${new Date().toISOString().slice(0,19).replace(/:/g, '-')}.json`; a.click(); URL.revokeObjectURL(a.href);
+}
+async function refreshStats() {
+  const recordsForStats = dedupEnabled ? deduplicateRecords(allRecords) : allRecords;
+  const userStats = computeUserStats(recordsForStats);
+  renderGlobalStats(allRecords, userStats);
+  renderUserStatsTable(userStats);
+}
+async function main() {
+  $('detailTableContainer').innerHTML = '<div class="loading">加载数据…</div>';
+  $('globalStats').innerHTML = '<div class="loading">加载中…</div>';
+  $('userStatsTable').innerHTML = '<div class="loading">加载中…</div>';
+  try {
+    setNotice('');
+    await loadMapping();
+    allRecords = await loadAllDataByMode();
+    await refreshStats();
+    renderDetailTable();
+  } catch (err) {
+    console.error(err);
+    const msg = String(err.message || err).includes('403') ? '访问受限 (403)，可能是速率限制或网络问题，请稍后刷新。' : String(err.message || err);
+    $('detailTableContainer').innerHTML = `<div class="error">加载失败: ${esc(msg)}</div>`;
+    $('globalStats').innerHTML = '<div class="error">加载失败</div>';
+    $('userStatsTable').innerHTML = '<div class="error">加载失败</div>';
+    setNotice('如果刚更新代码但还没迁移旧数据，请先在 Render 访问 /api/migrate-legacy?token=你的ADMIN_TOKEN。', true);
+  }
+}
+$('dateInput').value = todayKey();
+$('refreshBtn').addEventListener('click', main);
+$('loadRangeBtn').addEventListener('click', main);
+$('downloadCsvBtn').addEventListener('click', () => exportToCSV(currentTypeFilter ? allRecords.filter(r => normalizeTaskType(r.taskType) === currentTypeFilter) : allRecords));
+$('downloadJsonBtn').addEventListener('click', () => exportToJSON(currentTypeFilter ? allRecords.filter(r => normalizeTaskType(r.taskType) === currentTypeFilter) : allRecords));
+$('typeFilter').addEventListener('change', e => { currentTypeFilter = e.target.value; renderDetailTable(); refreshStats(); });
+$('dedupToggle').addEventListener('change', e => { dedupEnabled = e.target.checked; refreshStats(); renderDetailTable(); });
+$('rangeMode').addEventListener('change', e => { currentLoadMode = e.target.value; });
+main();
+</script>
+</body>
+</html>
