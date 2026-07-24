@@ -730,5 +730,17 @@
     "timestamp": "2026-07-24T11:23:48.380843",
     "clientType": "android-apk",
     "received_at": "2026-07-24T03:23:49.279002Z"
+  },
+  {
+    "userUid": "290489815",
+    "taskType": "temp",
+    "timestamp": "2026-07-24T03:24:23.933Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 286,
+    "submitted": 278,
+    "failed": 0,
+    "whitelistSkipped": 8,
+    "durationSeconds": 824,
+    "received_at": "2026-07-24T03:24:24.726461Z"
   }
 ]
