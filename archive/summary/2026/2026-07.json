@@ -536,22 +536,22 @@
     "2026-07-31": {
       "date": "2026-07-31",
       "recordsPath": "archive/reports/2026/07/2026-07-31.json",
-      "reportCount": 1,
-      "activeUsers": 1,
-      "totalParsed": 2872,
-      "submitted": 2728,
-      "failed": 117,
-      "whitelistSkipped": 27,
-      "durationSeconds": 49555,
+      "reportCount": 2,
+      "activeUsers": 2,
+      "totalParsed": 3904,
+      "submitted": 3709,
+      "failed": 163,
+      "whitelistSkipped": 32,
+      "durationSeconds": 64058,
       "taskTypes": {
-        "daily": 0,
+        "daily": 1,
         "temp": 0,
         "local": 1,
         "unknown": 0
       },
-      "lastSeenAt": "2026-07-30T16:19:33.862848Z",
-      "updatedAt": "2026-07-30T16:19:34.141956Z"
+      "lastSeenAt": "2026-07-31T00:57:51.991356Z",
+      "updatedAt": "2026-07-30T16:57:53.485332Z"
     }
   },
-  "updatedAt": "2026-07-30T16:19:34.141966Z"
+  "updatedAt": "2026-07-30T16:57:53.485341Z"
 }
