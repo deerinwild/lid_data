@@ -30946,5 +30946,77 @@
     "whitelistSkipped": 106,
     "durationSeconds": 9784,
     "received_at": "2026-08-03T09:08:33.578898Z"
+  },
+  {
+    "userUid": "275714057",
+    "taskType": "temp",
+    "timestamp": "2026-08-03T09:12:59.145Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 267,
+    "submitted": 260,
+    "failed": 0,
+    "whitelistSkipped": 7,
+    "durationSeconds": 3624,
+    "received_at": "2026-08-03T09:13:22.628691Z"
+  },
+  {
+    "userUid": "290595825",
+    "taskType": "daily",
+    "totalParsed": 1669,
+    "submitted": 74,
+    "failed": 1,
+    "whitelistSkipped": 1,
+    "durationSeconds": 0,
+    "timestamp": "2026-08-03T17:14:20.362734",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T09:14:23.391508Z"
+  },
+  {
+    "userUid": "59919960",
+    "taskType": "local",
+    "timestamp": "2026-08-03T09:15:02.321Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1788,
+    "submitted": 1481,
+    "failed": 226,
+    "whitelistSkipped": 86,
+    "durationSeconds": 9981,
+    "received_at": "2026-08-03T09:15:03.890610Z"
+  },
+  {
+    "userUid": "276245364",
+    "taskType": "local",
+    "timestamp": "2026-08-03T09:15:14.613Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1788,
+    "submitted": 1467,
+    "failed": 235,
+    "whitelistSkipped": 86,
+    "durationSeconds": 9979,
+    "received_at": "2026-08-03T09:15:34.569985Z"
+  },
+  {
+    "userUid": "276283816",
+    "taskType": "local",
+    "timestamp": "2026-08-03T09:16:48.105Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1830,
+    "submitted": 1681,
+    "failed": 43,
+    "whitelistSkipped": 106,
+    "durationSeconds": 10094,
+    "received_at": "2026-08-03T09:17:10.295647Z"
+  },
+  {
+    "userUid": "250130299",
+    "taskType": "daily",
+    "totalParsed": 777,
+    "submitted": 748,
+    "failed": 28,
+    "whitelistSkipped": 1,
+    "durationSeconds": 13316,
+    "timestamp": "2026-08-03T17:21:04.608088",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T09:21:06.923816Z"
   }
 ]
