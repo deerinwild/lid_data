@@ -30814,5 +30814,89 @@
     "timestamp": "2026-08-03T16:49:58.213428",
     "clientType": "android-apk",
     "received_at": "2026-08-03T08:49:59.528971Z"
+  },
+  {
+    "userUid": "293384036",
+    "taskType": "daily",
+    "totalParsed": 423,
+    "submitted": 0,
+    "failed": 1,
+    "whitelistSkipped": 1,
+    "durationSeconds": 6,
+    "timestamp": "2026-08-03T16:50:45.498103",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T08:50:46.666769Z"
+  },
+  {
+    "userUid": "211561094",
+    "taskType": "daily",
+    "totalParsed": 423,
+    "submitted": 38,
+    "failed": 384,
+    "whitelistSkipped": 1,
+    "durationSeconds": 3072,
+    "timestamp": "2026-08-03T16:52:51.053407",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T08:52:53.800710Z"
+  },
+  {
+    "userUid": "174189238",
+    "taskType": "local",
+    "timestamp": "2026-08-03T08:53:20.767Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1690,
+    "submitted": 1538,
+    "failed": 72,
+    "whitelistSkipped": 86,
+    "durationSeconds": 19244,
+    "received_at": "2026-08-03T08:53:24.107759Z"
+  },
+  {
+    "userUid": "89509581",
+    "taskType": "daily",
+    "totalParsed": 423,
+    "submitted": 419,
+    "failed": 3,
+    "whitelistSkipped": 1,
+    "durationSeconds": 5105,
+    "timestamp": "2026-08-03T16:54:11.207713",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T08:54:12.802051Z"
+  },
+  {
+    "userUid": "285314153",
+    "taskType": "local",
+    "timestamp": "2026-08-03T08:55:08.784Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1694,
+    "submitted": 1440,
+    "failed": 168,
+    "whitelistSkipped": 86,
+    "durationSeconds": 4549,
+    "received_at": "2026-08-03T08:55:10.234465Z"
+  },
+  {
+    "userUid": "283203431",
+    "taskType": "daily",
+    "totalParsed": 407,
+    "submitted": 395,
+    "failed": 11,
+    "whitelistSkipped": 1,
+    "durationSeconds": 8336,
+    "timestamp": "2026-08-03T16:59:57.544983",
+    "clientType": "android-apk",
+    "received_at": "2026-08-03T08:59:59.416314Z"
+  },
+  {
+    "userUid": "147491389",
+    "taskType": "temp",
+    "timestamp": "2026-08-03T09:00:24.113Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 281,
+    "submitted": 231,
+    "failed": 43,
+    "whitelistSkipped": 7,
+    "durationSeconds": 1088,
+    "received_at": "2026-08-03T09:00:29.641370Z"
   }
 ]
