@@ -1,62 +1,38 @@
 [
   {
-    "userUid": "221710817",
+    "userUid": "151355009",
     "taskType": "local",
-    "timestamp": "2026-08-17T11:28:44.846Z",
+    "timestamp": "2026-08-17T12:30:20.277Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2345,
-    "submitted": 2267,
+    "totalParsed": 2327,
+    "submitted": 1723,
+    "failed": 526,
+    "whitelistSkipped": 78,
+    "durationSeconds": 14235,
+    "received_at": "2026-08-17T12:30:48.960995Z"
+  },
+  {
+    "userUid": "217529893",
+    "taskType": "local",
+    "timestamp": "2026-08-17T12:30:51.077Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2346,
+    "submitted": 2265,
+    "failed": 3,
+    "whitelistSkipped": 78,
+    "durationSeconds": 18073,
+    "received_at": "2026-08-17T12:31:10.350652Z"
+  },
+  {
+    "userUid": "192432805",
+    "taskType": "local",
+    "timestamp": "2026-08-17T12:34:18.227Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 4127,
+    "submitted": 4049,
     "failed": 0,
     "whitelistSkipped": 78,
-    "durationSeconds": 2587,
-    "received_at": "2026-08-17T11:29:07.842518Z"
-  },
-  {
-    "userUid": "276482288",
-    "taskType": "local",
-    "timestamp": "2026-08-17T11:35:42.536Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2444,
-    "submitted": 1933,
-    "failed": 433,
-    "whitelistSkipped": 78,
-    "durationSeconds": 12104,
-    "received_at": "2026-08-17T11:35:43.472756Z"
-  },
-  {
-    "userUid": "234448879",
-    "taskType": "local",
-    "timestamp": "2026-08-17T11:50:00.699Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2375,
-    "submitted": 2005,
-    "failed": 279,
-    "whitelistSkipped": 91,
-    "durationSeconds": 27627,
-    "received_at": "2026-08-17T11:50:01.456488Z"
-  },
-  {
-    "userUid": "294382533",
-    "taskType": "daily",
-    "totalParsed": 1942,
-    "submitted": 1731,
-    "failed": 185,
-    "whitelistSkipped": 26,
-    "durationSeconds": 0,
-    "timestamp": "2026-08-17T19:52:49.410175",
-    "clientType": "android-apk",
-    "received_at": "2026-08-17T11:52:52.182470Z"
-  },
-  {
-    "userUid": "221710817",
-    "taskType": "daily",
-    "timestamp": "2026-08-17T12:05:55.232Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1803,
-    "submitted": 1777,
-    "failed": 4,
-    "whitelistSkipped": 22,
-    "durationSeconds": 2064,
-    "received_at": "2026-08-17T12:05:55.901799Z"
+    "durationSeconds": 4579,
+    "received_at": "2026-08-17T12:34:19.127753Z"
   }
 ]
