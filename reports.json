@@ -1,62 +1,38 @@
 [
   {
-    "userUid": "281111531",
+    "userUid": "289321183",
     "taskType": "local",
-    "timestamp": "2026-08-18T12:28:56.911Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2319,
-    "submitted": 2199,
-    "failed": 14,
-    "whitelistSkipped": 106,
-    "durationSeconds": 2570,
-    "received_at": "2026-08-18T12:29:20.616198Z"
-  },
-  {
-    "userUid": "276277777",
-    "taskType": "local",
-    "timestamp": "2026-08-18T12:37:38.030Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2307,
-    "submitted": 1562,
-    "failed": 636,
-    "whitelistSkipped": 110,
-    "durationSeconds": 13194,
-    "received_at": "2026-08-18T12:37:38.759834Z"
-  },
-  {
-    "userUid": "275838399",
-    "taskType": "local",
-    "timestamp": "2026-08-18T12:50:01.788Z",
+    "timestamp": "2026-08-18T13:19:36.405Z",
     "clientType": "chrome-extension",
     "totalParsed": 2213,
-    "submitted": 2110,
-    "failed": 3,
+    "submitted": 1446,
+    "failed": 127,
     "whitelistSkipped": 100,
-    "durationSeconds": 4669,
-    "received_at": "2026-08-18T12:50:02.776554Z"
+    "durationSeconds": 0,
+    "received_at": "2026-08-18T13:19:57.609644Z"
   },
   {
-    "userUid": "221710817",
+    "userUid": "289321183",
     "taskType": "local",
-    "timestamp": "2026-08-18T12:57:44.604Z",
+    "timestamp": "2026-08-18T13:19:27.968Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2213,
+    "submitted": 1444,
+    "failed": 127,
+    "whitelistSkipped": 100,
+    "durationSeconds": 0,
+    "received_at": "2026-08-18T13:20:18.677637Z"
+  },
+  {
+    "userUid": "275836660",
+    "taskType": "local",
+    "timestamp": "2026-08-18T13:25:34.040Z",
     "clientType": "chrome-extension",
     "totalParsed": 2213,
     "submitted": 2113,
     "failed": 0,
     "whitelistSkipped": 100,
-    "durationSeconds": 2390,
-    "received_at": "2026-08-18T12:57:46.194292Z"
-  },
-  {
-    "userUid": "292943658",
-    "taskType": "local",
-    "timestamp": "2026-08-18T13:04:19.834Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2213,
-    "submitted": 2113,
-    "failed": 0,
-    "whitelistSkipped": 100,
-    "durationSeconds": 2258,
-    "received_at": "2026-08-18T13:04:19.170128Z"
+    "durationSeconds": 4554,
+    "received_at": "2026-08-18T13:25:35.634958Z"
   }
 ]
