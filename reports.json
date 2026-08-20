@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "179150166",
+    "userUid": "282632878",
     "taskType": "local",
-    "timestamp": "2026-08-20T14:43:48.533Z",
+    "timestamp": "2026-08-20T15:34:40.182Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1867,
-    "submitted": 1730,
+    "totalParsed": 1616,
+    "submitted": 1479,
     "failed": 0,
     "whitelistSkipped": 137,
-    "durationSeconds": 17455,
-    "received_at": "2026-08-20T14:44:10.421806Z"
-  },
-  {
-    "userUid": "276454890",
-    "taskType": "local",
-    "timestamp": "2026-08-20T14:54:28.266Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 57,
-    "submitted": 57,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 284,
-    "received_at": "2026-08-20T14:54:31.732813Z"
-  },
-  {
-    "userUid": "217488302",
-    "taskType": "local",
-    "timestamp": "2026-08-20T15:02:14.307Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 57,
-    "submitted": 57,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 283,
-    "received_at": "2026-08-20T15:02:14.862650Z"
+    "durationSeconds": 2003,
+    "received_at": "2026-08-20T15:35:02.983550Z"
   },
   {
     "userUid": "276093446",
-    "taskType": "daily",
-    "timestamp": "2026-08-20T15:02:51.060Z",
+    "taskType": "temp",
+    "timestamp": "2026-08-20T15:38:08.916Z",
     "clientType": "chrome-extension",
-    "totalParsed": 372,
-    "submitted": 362,
+    "totalParsed": 281,
+    "submitted": 274,
     "failed": 0,
-    "whitelistSkipped": 10,
-    "durationSeconds": 1874,
-    "received_at": "2026-08-20T15:02:51.269720Z"
-  },
-  {
-    "userUid": "234448879",
-    "taskType": "local",
-    "timestamp": "2026-08-20T15:06:28.367Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 95,
-    "submitted": 95,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 667,
-    "received_at": "2026-08-20T15:06:28.959314Z"
+    "whitelistSkipped": 7,
+    "durationSeconds": 1412,
+    "received_at": "2026-08-20T15:38:09.084606Z"
   }
 ]
