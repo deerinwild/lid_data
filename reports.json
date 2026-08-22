@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "275714057",
-    "taskType": "local",
-    "timestamp": "2026-08-22T07:26:48.797Z",
+    "userUid": "285488756",
+    "taskType": "temp",
+    "timestamp": "2026-08-22T08:00:38.106Z",
     "clientType": "chrome-extension",
-    "totalParsed": 15,
-    "submitted": 15,
-    "failed": 0,
+    "totalParsed": 2061,
+    "submitted": 1048,
+    "failed": 1013,
     "whitelistSkipped": 0,
-    "durationSeconds": 143,
-    "received_at": "2026-08-22T07:27:25.552249Z"
+    "durationSeconds": 16017,
+    "received_at": "2026-08-22T08:00:59.660344Z"
   },
   {
-    "userUid": "275549646",
+    "userUid": "288236839",
     "taskType": "local",
-    "timestamp": "2026-08-22T07:28:22.125Z",
+    "timestamp": "2026-08-22T08:07:02.200Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1869,
-    "submitted": 0,
-    "failed": 1732,
-    "whitelistSkipped": 137,
-    "durationSeconds": 12493,
-    "received_at": "2026-08-22T07:28:22.950494Z"
-  },
-  {
-    "userUid": "275714057",
-    "taskType": "local",
-    "timestamp": "2026-08-22T07:29:59.794Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 15,
-    "submitted": 15,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 141,
-    "received_at": "2026-08-22T07:30:15.451246Z"
-  },
-  {
-    "userUid": "275714057",
-    "taskType": "local",
-    "timestamp": "2026-08-22T07:33:47.969Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 15,
-    "submitted": 15,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 150,
-    "received_at": "2026-08-22T07:34:03.607995Z"
-  },
-  {
-    "userUid": "275714057",
-    "taskType": "local",
-    "timestamp": "2026-08-22T07:44:36.031Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 12,
-    "submitted": 12,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 119,
-    "received_at": "2026-08-22T07:44:51.670949Z"
+    "totalParsed": 2358,
+    "submitted": 1969,
+    "failed": 266,
+    "whitelistSkipped": 128,
+    "durationSeconds": 11932,
+    "received_at": "2026-08-22T08:07:02.627678Z"
   }
 ]
