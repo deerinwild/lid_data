@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "285488756",
-    "taskType": "temp",
-    "timestamp": "2026-08-22T08:00:38.106Z",
+    "userUid": "215279753",
+    "taskType": "daily",
+    "timestamp": "2026-08-22T08:42:03.285Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2061,
-    "submitted": 1048,
-    "failed": 1013,
-    "whitelistSkipped": 0,
-    "durationSeconds": 16017,
-    "received_at": "2026-08-22T08:00:59.660344Z"
-  },
-  {
-    "userUid": "288236839",
-    "taskType": "local",
-    "timestamp": "2026-08-22T08:07:02.200Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2358,
-    "submitted": 1969,
-    "failed": 266,
-    "whitelistSkipped": 128,
-    "durationSeconds": 11932,
-    "received_at": "2026-08-22T08:07:02.627678Z"
-  },
-  {
-    "userUid": "283372301",
-    "taskType": "local",
-    "timestamp": "2026-08-22T08:14:29.030Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2907,
-    "submitted": 2791,
-    "failed": 87,
-    "whitelistSkipped": 29,
-    "durationSeconds": 17560,
-    "received_at": "2026-08-22T08:14:29.839470Z"
+    "totalParsed": 352,
+    "submitted": 341,
+    "failed": 0,
+    "whitelistSkipped": 11,
+    "durationSeconds": 3727,
+    "received_at": "2026-08-22T08:42:25.247449Z"
   },
   {
     "userUid": "275714057",
     "taskType": "local",
-    "timestamp": "2026-08-22T08:20:59.232Z",
+    "timestamp": "2026-08-22T08:53:21.815Z",
     "clientType": "chrome-extension",
-    "totalParsed": 6,
-    "submitted": 6,
+    "totalParsed": 18,
+    "submitted": 18,
     "failed": 0,
     "whitelistSkipped": 0,
-    "durationSeconds": 55,
-    "received_at": "2026-08-22T08:21:14.879056Z"
-  },
-  {
-    "userUid": "141652909",
-    "taskType": "local",
-    "timestamp": "2026-08-22T08:26:09.671Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1775,
-    "submitted": 1569,
-    "failed": 0,
-    "whitelistSkipped": 140,
-    "durationSeconds": 17242,
-    "received_at": "2026-08-22T08:26:10.276478Z"
+    "durationSeconds": 173,
+    "received_at": "2026-08-22T08:53:37.408286Z"
   }
 ]
