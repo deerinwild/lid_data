@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-08-23T14:44:04.200647Z",
-  "latestDate": "2026-08-23",
+  "updatedAt": "2026-08-23T16:50:22.070585Z",
+  "latestDate": "2026-08-24",
   "latestMonth": "2026-08",
-  "latestRecordsPath": "archive/reports/2026/08/2026-08-23.json",
+  "latestRecordsPath": "archive/reports/2026/08/2026-08-24.json",
   "latestSummaryPath": "archive/summary/2026/2026-08.json",
   "days": [
+    {
+      "date": "2026-08-24",
+      "month": "2026-08",
+      "recordsPath": "archive/reports/2026/08/2026-08-24.json",
+      "summaryPath": "archive/summary/2026/2026-08.json",
+      "updatedAt": "2026-08-23T16:50:22.069258Z",
+      "reportCount": 2,
+      "activeUsers": 2,
+      "totalParsed": 3423,
+      "submitted": 1282,
+      "failed": 1389,
+      "whitelistSkipped": 128,
+      "lastSeenAt": "2026-08-23T16:50:20.765000Z"
+    },
     {
       "date": "2026-08-23",
       "month": "2026-08",
