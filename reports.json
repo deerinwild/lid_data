@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "245346675",
-    "taskType": "local",
-    "timestamp": "2026-08-25T13:02:27.991Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2676,
-    "submitted": 2464,
-    "failed": 141,
-    "whitelistSkipped": 71,
-    "durationSeconds": 20416,
-    "received_at": "2026-08-25T13:02:51.072316Z"
-  },
-  {
-    "userUid": "281111531",
-    "taskType": "local",
-    "timestamp": "2026-08-25T13:09:16.013Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2625,
-    "submitted": 2517,
-    "failed": 37,
-    "whitelistSkipped": 71,
-    "durationSeconds": 3422,
-    "received_at": "2026-08-25T13:09:17.528619Z"
-  },
-  {
-    "userUid": "263883083",
+    "userUid": "289885776",
     "taskType": "daily",
     "totalParsed": 134,
-    "submitted": 110,
-    "failed": 20,
+    "submitted": 106,
+    "failed": 24,
     "whitelistSkipped": 4,
-    "durationSeconds": 1457,
-    "timestamp": "2026-08-25T21:21:36.182274",
+    "durationSeconds": 1335,
+    "timestamp": "2026-08-25T21:50:47.356994",
     "clientType": "android-apk",
-    "received_at": "2026-08-25T13:21:37.306729Z"
+    "received_at": "2026-08-25T13:51:10.784259Z"
   },
   {
-    "userUid": "275838399",
+    "userUid": "217488302",
     "taskType": "local",
-    "timestamp": "2026-08-25T13:21:56.194Z",
+    "timestamp": "2026-08-25T13:59:52.202Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2698,
-    "submitted": 2536,
-    "failed": 90,
+    "totalParsed": 2578,
+    "submitted": 1742,
+    "failed": 764,
     "whitelistSkipped": 72,
-    "durationSeconds": 6699,
-    "received_at": "2026-08-25T13:21:57.370876Z"
-  },
-  {
-    "userUid": "289156335",
-    "taskType": "daily",
-    "totalParsed": 134,
-    "submitted": 99,
-    "failed": 31,
-    "whitelistSkipped": 4,
-    "durationSeconds": 1317,
-    "timestamp": "2026-08-25T21:22:35.409783",
-    "clientType": "android-apk",
-    "received_at": "2026-08-25T13:22:37.108747Z"
+    "durationSeconds": 14042,
+    "received_at": "2026-08-25T13:59:52.923095Z"
   }
 ]
