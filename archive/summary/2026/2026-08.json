@@ -365,22 +365,22 @@
     "2026-08-25": {
       "date": "2026-08-25",
       "recordsPath": "archive/reports/2026/08/2026-08-25.json",
-      "reportCount": 34,
+      "reportCount": 35,
       "activeUsers": 20,
-      "totalParsed": 55796,
-      "submitted": 36333,
+      "totalParsed": 55837,
+      "submitted": 36334,
       "failed": 10757,
       "whitelistSkipped": 664,
       "durationSeconds": 296233,
       "taskTypes": {
         "daily": 5,
         "temp": 5,
-        "local": 24,
+        "local": 25,
         "unknown": 0
       },
       "lastSeenAt": "2026-08-25T10:12:45.450262Z",
-      "updatedAt": "2026-08-25T02:57:44.948811Z"
+      "updatedAt": "2026-08-25T02:57:51.049332Z"
     }
   },
-  "updatedAt": "2026-08-25T02:57:44.948822Z"
+  "updatedAt": "2026-08-25T02:57:51.049340Z"
 }
