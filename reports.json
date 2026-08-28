@@ -1,62 +1,38 @@
 [
   {
-    "userUid": "285488756",
+    "userUid": "280335717",
     "taskType": "local",
-    "timestamp": "2026-08-28T12:56:14.707Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 4558,
-    "submitted": 3763,
-    "failed": 615,
-    "whitelistSkipped": 185,
-    "durationSeconds": 33407,
-    "received_at": "2026-08-28T12:56:37.612994Z"
-  },
-  {
-    "userUid": "283372301",
-    "taskType": "local",
-    "timestamp": "2026-08-28T13:03:31.184Z",
+    "timestamp": "2026-08-28T13:21:06.327Z",
     "clientType": "chrome-extension",
     "totalParsed": 4651,
-    "submitted": 3103,
-    "failed": 1374,
+    "submitted": 1909,
+    "failed": 0,
     "whitelistSkipped": 185,
-    "durationSeconds": 28821,
-    "received_at": "2026-08-28T13:03:31.951344Z"
+    "durationSeconds": 30678,
+    "received_at": "2026-08-28T13:21:27.800017Z"
   },
   {
-    "userUid": "285482908",
+    "userUid": "280335717",
     "taskType": "local",
-    "timestamp": "2026-08-28T13:05:16.874Z",
+    "timestamp": "2026-08-28T13:21:14.569Z",
     "clientType": "chrome-extension",
-    "totalParsed": 4561,
-    "submitted": 789,
-    "failed": 57,
-    "whitelistSkipped": 174,
+    "totalParsed": 4651,
+    "submitted": 1909,
+    "failed": 0,
+    "whitelistSkipped": 185,
     "durationSeconds": 0,
-    "received_at": "2026-08-28T13:05:18.724249Z"
+    "received_at": "2026-08-28T13:21:48.925790Z"
   },
   {
-    "userUid": "285482908",
+    "userUid": "147491389",
     "taskType": "local",
-    "timestamp": "2026-08-28T13:05:18.052Z",
+    "timestamp": "2026-08-28T13:26:56.399Z",
     "clientType": "chrome-extension",
-    "totalParsed": 4561,
-    "submitted": 789,
-    "failed": 57,
-    "whitelistSkipped": 174,
-    "durationSeconds": 0,
-    "received_at": "2026-08-28T13:05:21.126880Z"
-  },
-  {
-    "userUid": "285482908",
-    "taskType": "local",
-    "timestamp": "2026-08-28T13:05:19.926Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 4561,
-    "submitted": 789,
-    "failed": 57,
-    "whitelistSkipped": 174,
-    "durationSeconds": 0,
-    "received_at": "2026-08-28T13:05:23.124361Z"
+    "totalParsed": 4617,
+    "submitted": 4432,
+    "failed": 0,
+    "whitelistSkipped": 185,
+    "durationSeconds": 4949,
+    "received_at": "2026-08-28T13:26:56.674732Z"
   }
 ]
