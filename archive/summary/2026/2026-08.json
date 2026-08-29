@@ -456,7 +456,26 @@
       },
       "lastSeenAt": "2026-08-29T23:34:51.300732Z",
       "updatedAt": "2026-08-29T15:53:51.047332Z"
+    },
+    "2026-08-30": {
+      "date": "2026-08-30",
+      "recordsPath": "archive/reports/2026/08/2026-08-30.json",
+      "reportCount": 1,
+      "activeUsers": 1,
+      "totalParsed": 4780,
+      "submitted": 3598,
+      "failed": 0,
+      "whitelistSkipped": 142,
+      "durationSeconds": 0,
+      "taskTypes": {
+        "daily": 0,
+        "temp": 0,
+        "local": 1,
+        "unknown": 0
+      },
+      "lastSeenAt": "2026-08-29T16:04:26.100633Z",
+      "updatedAt": "2026-08-29T16:04:26.543870Z"
     }
   },
-  "updatedAt": "2026-08-29T15:53:51.047342Z"
+  "updatedAt": "2026-08-29T16:04:26.543877Z"
 }
