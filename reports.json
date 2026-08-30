@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "168872170",
+    "userUid": "152636908",
+    "taskType": "local",
+    "timestamp": "2026-08-30T10:26:17.521Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1734,
+    "submitted": 1592,
+    "failed": 1,
+    "whitelistSkipped": 141,
+    "durationSeconds": 3587,
+    "received_at": "2026-08-30T10:26:39.293334Z"
+  },
+  {
+    "userUid": "198735203",
     "taskType": "daily",
-    "totalParsed": 122,
-    "submitted": 114,
+    "totalParsed": 75,
+    "submitted": 68,
     "failed": 1,
-    "whitelistSkipped": 7,
-    "durationSeconds": 1377,
-    "timestamp": "2026-08-30T17:52:08.325104",
+    "whitelistSkipped": 6,
+    "durationSeconds": 10104,
+    "timestamp": "2026-08-30T18:34:30.401830",
     "clientType": "android-apk",
-    "received_at": "2026-08-30T09:52:32.244704Z"
-  },
-  {
-    "userUid": "255526807",
-    "taskType": "daily",
-    "totalParsed": 222,
-    "submitted": 215,
-    "failed": 0,
-    "whitelistSkipped": 7,
-    "durationSeconds": 2568,
-    "timestamp": "2026-08-30T17:56:24.608081",
-    "clientType": "android-apk",
-    "received_at": "2026-08-30T09:56:26.196211Z"
-  },
-  {
-    "userUid": "276285260",
-    "taskType": "local",
-    "timestamp": "2026-08-30T10:01:33.977Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3697,
-    "submitted": 1915,
-    "failed": 1,
-    "whitelistSkipped": 181,
-    "durationSeconds": 0,
-    "received_at": "2026-08-30T10:01:56.516099Z"
-  },
-  {
-    "userUid": "276285260",
-    "taskType": "local",
-    "timestamp": "2026-08-30T10:01:49.328Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3697,
-    "submitted": 1915,
-    "failed": 1,
-    "whitelistSkipped": 181,
-    "durationSeconds": 0,
-    "received_at": "2026-08-30T10:01:58.478545Z"
-  },
-  {
-    "userUid": "276285260",
-    "taskType": "local",
-    "timestamp": "2026-08-30T10:01:47.452Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3697,
-    "submitted": 1915,
-    "failed": 1,
-    "whitelistSkipped": 181,
-    "durationSeconds": 13112,
-    "received_at": "2026-08-30T10:02:00.385804Z"
+    "received_at": "2026-08-30T10:34:31.640139Z"
   }
 ]
