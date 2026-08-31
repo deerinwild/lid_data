@@ -479,22 +479,22 @@
     "2026-08-31": {
       "date": "2026-08-31",
       "recordsPath": "archive/reports/2026/08/2026-08-31.json",
-      "reportCount": 186,
+      "reportCount": 187,
       "activeUsers": 104,
-      "totalParsed": 309824,
-      "submitted": 248068,
+      "totalParsed": 312464,
+      "submitted": 249720,
       "failed": 20522,
-      "whitelistSkipped": 14711,
+      "whitelistSkipped": 14838,
       "durationSeconds": 949451,
       "taskTypes": {
         "daily": 28,
         "temp": 41,
-        "local": 117,
+        "local": 118,
         "unknown": 0
       },
       "lastSeenAt": "2026-08-31T18:02:23.841541Z",
-      "updatedAt": "2026-08-31T10:02:41.398388Z"
+      "updatedAt": "2026-08-31T10:02:43.615004Z"
     }
   },
-  "updatedAt": "2026-08-31T10:02:41.398402Z"
+  "updatedAt": "2026-08-31T10:02:43.615015Z"
 }
