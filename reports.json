@@ -1,50 +1,38 @@
 [
   {
-    "userUid": "183746187",
+    "userUid": "174189238",
     "taskType": "daily",
-    "timestamp": "2026-08-30T23:37:44.865Z",
+    "timestamp": "2026-08-31T00:57:13.671Z",
     "clientType": "chrome-extension",
-    "totalParsed": 130,
-    "submitted": 127,
+    "totalParsed": 220,
+    "submitted": 214,
     "failed": 0,
-    "whitelistSkipped": 3,
-    "durationSeconds": 907,
-    "received_at": "2026-08-30T23:38:06.739091Z"
+    "whitelistSkipped": 6,
+    "durationSeconds": 223,
+    "received_at": "2026-08-31T00:57:21.531583Z"
   },
   {
-    "userUid": "283937015",
-    "taskType": "daily",
-    "totalParsed": 200,
-    "submitted": 193,
-    "failed": 0,
-    "whitelistSkipped": 7,
-    "durationSeconds": 2203,
-    "timestamp": "2026-08-31T07:41:05.048985",
-    "clientType": "android-apk",
-    "received_at": "2026-08-30T23:41:06.805420Z"
-  },
-  {
-    "userUid": "275549646",
-    "taskType": "temp",
-    "timestamp": "2026-08-30T23:51:14.803Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 502,
-    "submitted": 0,
-    "failed": 463,
-    "whitelistSkipped": 39,
-    "durationSeconds": 4820,
-    "received_at": "2026-08-30T23:51:15.020028Z"
-  },
-  {
-    "userUid": "222360658",
+    "userUid": "202702797",
     "taskType": "temp",
     "totalParsed": 405,
-    "submitted": 0,
-    "failed": 363,
+    "submitted": 363,
+    "failed": 0,
     "whitelistSkipped": 42,
-    "durationSeconds": 1188,
-    "timestamp": "2026-08-31T07:58:41.834206",
+    "durationSeconds": 4347,
+    "timestamp": "2026-08-31T08:56:59.037440",
     "clientType": "android-apk",
-    "received_at": "2026-08-30T23:58:52.599238Z"
+    "received_at": "2026-08-31T00:57:43.384080Z"
+  },
+  {
+    "userUid": "276280160",
+    "taskType": "daily",
+    "timestamp": "2026-08-31T01:00:17.101Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 222,
+    "submitted": 215,
+    "failed": 0,
+    "whitelistSkipped": 7,
+    "durationSeconds": 281,
+    "received_at": "2026-08-31T01:00:08.963777Z"
   }
 ]
