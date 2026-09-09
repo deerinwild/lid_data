@@ -171,7 +171,26 @@
       },
       "lastSeenAt": "2026-09-09T23:37:53.104440Z",
       "updatedAt": "2026-09-09T15:45:11.740840Z"
+    },
+    "2026-09-10": {
+      "date": "2026-09-10",
+      "recordsPath": "archive/reports/2026/09/2026-09-10.json",
+      "reportCount": 2,
+      "activeUsers": 2,
+      "totalParsed": 703,
+      "submitted": 524,
+      "failed": 90,
+      "whitelistSkipped": 88,
+      "durationSeconds": 34910,
+      "taskTypes": {
+        "daily": 1,
+        "temp": 1,
+        "local": 0,
+        "unknown": 0
+      },
+      "lastSeenAt": "2026-09-10T00:17:50.730381Z",
+      "updatedAt": "2026-09-09T16:17:55.817999Z"
     }
   },
-  "updatedAt": "2026-09-09T15:45:11.740850Z"
+  "updatedAt": "2026-09-09T16:17:55.818007Z"
 }
