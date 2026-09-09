@@ -1,50 +1,38 @@
 [
   {
-    "userUid": "128131935",
+    "userUid": "276658128",
     "taskType": "local",
-    "timestamp": "2026-09-09T10:39:30.601Z",
+    "timestamp": "2026-09-09T11:11:21.863Z",
     "clientType": "chrome-extension",
-    "totalParsed": 174,
-    "submitted": 173,
-    "failed": 0,
-    "whitelistSkipped": 1,
-    "durationSeconds": 718,
-    "received_at": "2026-09-09T10:39:53.683870Z"
+    "totalParsed": 1439,
+    "submitted": 1438,
+    "failed": 1,
+    "whitelistSkipped": 0,
+    "durationSeconds": 2298,
+    "received_at": "2026-09-09T11:11:43.918550Z"
   },
   {
-    "userUid": "274204773",
+    "userUid": "179150166",
+    "taskType": "local",
+    "timestamp": "2026-09-09T11:12:23.023Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1342,
+    "submitted": 1312,
+    "failed": 17,
+    "whitelistSkipped": 13,
+    "durationSeconds": 2812,
+    "received_at": "2026-09-09T11:12:24.614416Z"
+  },
+  {
+    "userUid": "286573126",
     "taskType": "daily",
-    "totalParsed": 347,
-    "submitted": 341,
+    "totalParsed": 398,
+    "submitted": 392,
     "failed": 0,
     "whitelistSkipped": 6,
-    "durationSeconds": 4532,
-    "timestamp": "2026-09-09T18:49:34.933600",
+    "durationSeconds": 4711,
+    "timestamp": "2026-09-09T19:17:01.815721",
     "clientType": "android-apk",
-    "received_at": "2026-09-09T10:49:35.857442Z"
-  },
-  {
-    "userUid": "205524704",
-    "taskType": "temp",
-    "totalParsed": 309,
-    "submitted": 192,
-    "failed": 35,
-    "whitelistSkipped": 82,
-    "durationSeconds": 2459,
-    "timestamp": "2026-09-09T18:52:57.996012",
-    "clientType": "android-apk",
-    "received_at": "2026-09-09T10:52:59.593114Z"
-  },
-  {
-    "userUid": "274764989",
-    "taskType": "daily",
-    "totalParsed": 297,
-    "submitted": 292,
-    "failed": 0,
-    "whitelistSkipped": 5,
-    "durationSeconds": 3443,
-    "timestamp": "2026-09-09T18:54:14.223697",
-    "clientType": "android-apk",
-    "received_at": "2026-09-09T10:54:15.434094Z"
+    "received_at": "2026-09-09T11:17:02.436665Z"
   }
 ]
