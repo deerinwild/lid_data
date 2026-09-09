@@ -1,62 +1,26 @@
 [
   {
-    "userUid": "275549646",
-    "taskType": "local",
-    "timestamp": "2026-09-08T23:17:39.296Z",
+    "userUid": "276454890",
+    "taskType": "temp",
+    "timestamp": "2026-09-09T00:47:26.830Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2201,
-    "submitted": 2067,
-    "failed": 62,
-    "whitelistSkipped": 72,
-    "durationSeconds": 21835,
-    "received_at": "2026-09-08T23:18:04.349338Z"
-  },
-  {
-    "userUid": "225403250",
-    "taskType": "temp",
-    "totalParsed": 197,
-    "submitted": 180,
-    "failed": 0,
-    "whitelistSkipped": 17,
-    "durationSeconds": 2336,
-    "timestamp": "2026-09-09T07:25:16.595171",
-    "clientType": "android-apk",
-    "received_at": "2026-09-08T23:25:17.033096Z"
-  },
-  {
-    "userUid": "289156335",
-    "taskType": "daily",
-    "totalParsed": 428,
-    "submitted": 418,
-    "failed": 5,
-    "whitelistSkipped": 5,
-    "durationSeconds": 33408,
-    "timestamp": "2026-09-09T07:40:07.527423",
-    "clientType": "android-apk",
-    "received_at": "2026-09-08T23:40:09.296164Z"
-  },
-  {
-    "userUid": "89509581",
-    "taskType": "temp",
-    "totalParsed": 214,
-    "submitted": 213,
+    "totalParsed": 219,
+    "submitted": 218,
     "failed": 0,
     "whitelistSkipped": 1,
-    "durationSeconds": 2487,
-    "timestamp": "2026-09-09T07:49:10.363832",
-    "clientType": "android-apk",
-    "received_at": "2026-09-08T23:49:10.247457Z"
+    "durationSeconds": 450,
+    "received_at": "2026-09-09T00:47:51.541687Z"
   },
   {
-    "userUid": "281398303",
-    "taskType": "temp",
-    "totalParsed": 186,
-    "submitted": 170,
-    "failed": 0,
-    "whitelistSkipped": 16,
-    "durationSeconds": 1672,
-    "timestamp": "2026-09-09T07:52:21.677628",
-    "clientType": "android-apk",
-    "received_at": "2026-09-08T23:52:22.069790Z"
+    "userUid": "283937068",
+    "taskType": "local",
+    "timestamp": "2026-09-09T00:54:54.169Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2401,
+    "submitted": 2300,
+    "failed": 8,
+    "whitelistSkipped": 93,
+    "durationSeconds": 75018,
+    "received_at": "2026-09-09T00:54:54.286883Z"
   }
 ]
