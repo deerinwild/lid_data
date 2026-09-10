@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-09-10T15:34:56.717976Z",
-  "latestDate": "2026-09-10",
+  "updatedAt": "2026-09-10T16:03:06.939773Z",
+  "latestDate": "2026-09-11",
   "latestMonth": "2026-09",
-  "latestRecordsPath": "archive/reports/2026/09/2026-09-10.json",
+  "latestRecordsPath": "archive/reports/2026/09/2026-09-11.json",
   "latestSummaryPath": "archive/summary/2026/2026-09.json",
   "days": [
+    {
+      "date": "2026-09-11",
+      "month": "2026-09",
+      "recordsPath": "archive/reports/2026/09/2026-09-11.json",
+      "summaryPath": "archive/summary/2026/2026-09.json",
+      "updatedAt": "2026-09-10T16:03:06.938109Z",
+      "reportCount": 1,
+      "activeUsers": 1,
+      "totalParsed": 1439,
+      "submitted": 1434,
+      "failed": 0,
+      "whitelistSkipped": 5,
+      "lastSeenAt": "2026-09-10T16:03:03.815296Z"
+    },
     {
       "date": "2026-09-10",
       "month": "2026-09",
