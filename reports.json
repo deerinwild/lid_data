@@ -1,86 +1,38 @@
 [
   {
-    "userUid": "276658128",
+    "userUid": "192432805",
     "taskType": "local",
-    "timestamp": "2026-09-10T11:31:07.373Z",
+    "timestamp": "2026-09-10T12:16:29.795Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1615,
-    "submitted": 1600,
+    "totalParsed": 1521,
+    "submitted": 1506,
     "failed": 0,
     "whitelistSkipped": 15,
-    "durationSeconds": 2548,
-    "received_at": "2026-09-10T11:31:30.178313Z"
+    "durationSeconds": 1654,
+    "received_at": "2026-09-10T12:16:51.290508Z"
   },
   {
-    "userUid": "276093446",
+    "userUid": "287462590",
     "taskType": "local",
-    "timestamp": "2026-09-10T11:38:03.222Z",
+    "timestamp": "2026-09-10T12:18:42.165Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1590,
-    "submitted": 1049,
-    "failed": 532,
-    "whitelistSkipped": 15,
-    "durationSeconds": 9383,
-    "received_at": "2026-09-10T11:38:02.202852Z"
-  },
-  {
-    "userUid": "166632387",
-    "taskType": "local",
-    "timestamp": "2026-09-10T11:41:41.567Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1686,
-    "submitted": 1261,
-    "failed": 328,
-    "whitelistSkipped": 97,
-    "durationSeconds": 9528,
-    "received_at": "2026-09-10T11:41:42.396412Z"
-  },
-  {
-    "userUid": "234448879",
-    "taskType": "local",
-    "timestamp": "2026-09-10T11:48:33.778Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1653,
-    "submitted": 1556,
+    "totalParsed": 1573,
+    "submitted": 0,
     "failed": 0,
-    "whitelistSkipped": 97,
-    "durationSeconds": 23824,
-    "received_at": "2026-09-10T11:48:34.541385Z"
-  },
-  {
-    "userUid": "289321183",
-    "taskType": "local",
-    "timestamp": "2026-09-10T11:49:43.828Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1477,
-    "submitted": 1461,
-    "failed": 1,
     "whitelistSkipped": 15,
-    "durationSeconds": 7118,
-    "received_at": "2026-09-10T11:49:46.008995Z"
+    "durationSeconds": 0,
+    "received_at": "2026-09-10T12:18:40.339925Z"
   },
   {
-    "userUid": "277889096",
+    "userUid": "285674870",
     "taskType": "local",
-    "timestamp": "2026-09-10T11:54:20.845Z",
+    "timestamp": "2026-09-10T12:23:36.307Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1349,
-    "submitted": 1336,
+    "totalParsed": 1586,
+    "submitted": 1571,
     "failed": 0,
-    "whitelistSkipped": 13,
-    "durationSeconds": 4206,
-    "received_at": "2026-09-10T11:54:22.591547Z"
-  },
-  {
-    "userUid": "280335717",
-    "taskType": "local",
-    "timestamp": "2026-09-10T11:56:14.413Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1655,
-    "submitted": 1568,
-    "failed": 72,
     "whitelistSkipped": 15,
-    "durationSeconds": 5187,
-    "received_at": "2026-09-10T11:56:14.708351Z"
+    "durationSeconds": 2182,
+    "received_at": "2026-09-10T12:23:37.302076Z"
   }
 ]
