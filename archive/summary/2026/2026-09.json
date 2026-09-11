@@ -194,22 +194,22 @@
     "2026-09-11": {
       "date": "2026-09-11",
       "recordsPath": "archive/reports/2026/09/2026-09-11.json",
-      "reportCount": 151,
+      "reportCount": 152,
       "activeUsers": 75,
-      "totalParsed": 252775,
+      "totalParsed": 252975,
       "submitted": 218134,
-      "failed": 12942,
+      "failed": 13142,
       "whitelistSkipped": 1861,
-      "durationSeconds": 651253,
+      "durationSeconds": 651702,
       "taskTypes": {
         "daily": 30,
         "temp": 1,
-        "local": 120,
+        "local": 121,
         "unknown": 0
       },
       "lastSeenAt": "2026-09-11T14:53:13.153124Z",
-      "updatedAt": "2026-09-11T06:53:55.516106Z"
+      "updatedAt": "2026-09-11T06:56:53.230215Z"
     }
   },
-  "updatedAt": "2026-09-11T06:53:55.516116Z"
+  "updatedAt": "2026-09-11T06:56:53.230222Z"
 }
