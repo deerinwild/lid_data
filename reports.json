@@ -1,74 +1,26 @@
 [
   {
-    "userUid": "258154083",
+    "userUid": "178704625",
     "taskType": "daily",
-    "totalParsed": 2125,
-    "submitted": 2104,
-    "failed": 20,
+    "totalParsed": 2142,
+    "submitted": 1313,
+    "failed": 13,
     "whitelistSkipped": 1,
-    "durationSeconds": 26579,
-    "timestamp": "2026-09-13T16:19:21.315561",
+    "durationSeconds": 16923,
+    "timestamp": "2026-09-13T17:05:10.437347",
     "clientType": "android-apk",
-    "received_at": "2026-09-13T08:19:43.901267Z"
+    "received_at": "2026-09-13T09:05:33.515010Z"
   },
   {
-    "userUid": "281398303",
-    "taskType": "daily",
-    "totalParsed": 564,
-    "submitted": 561,
-    "failed": 3,
-    "whitelistSkipped": 0,
-    "durationSeconds": 6797,
-    "timestamp": "2026-09-13T16:29:22.660950",
-    "clientType": "android-apk",
-    "received_at": "2026-09-13T08:29:24.083030Z"
-  },
-  {
-    "userUid": "122826612",
-    "taskType": "daily",
-    "totalParsed": 463,
-    "submitted": 460,
-    "failed": 3,
-    "whitelistSkipped": 0,
-    "durationSeconds": 6002,
-    "timestamp": "2026-09-13T16:29:29.303058",
-    "clientType": "android-apk",
-    "received_at": "2026-09-13T08:29:29.655242Z"
-  },
-  {
-    "userUid": "261708778",
-    "taskType": "daily",
-    "totalParsed": 464,
-    "submitted": 461,
-    "failed": 3,
-    "whitelistSkipped": 0,
-    "durationSeconds": 5970,
-    "timestamp": "2026-09-13T16:42:10.810880",
-    "clientType": "android-apk",
-    "received_at": "2026-09-13T08:42:11.916764Z"
-  },
-  {
-    "userUid": "280335717",
+    "userUid": "295756779",
     "taskType": "local",
-    "timestamp": "2026-09-13T08:48:05.118Z",
+    "timestamp": "2026-09-13T09:11:05.663Z",
     "clientType": "chrome-extension",
-    "totalParsed": 399,
-    "submitted": 386,
-    "failed": 21,
-    "whitelistSkipped": 0,
-    "durationSeconds": 11169,
-    "received_at": "2026-09-13T08:48:05.336639Z"
-  },
-  {
-    "userUid": "280335717",
-    "taskType": "local",
-    "timestamp": "2026-09-13T08:48:24.022Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 399,
-    "submitted": 378,
-    "failed": 21,
-    "whitelistSkipped": 0,
-    "durationSeconds": 6,
-    "received_at": "2026-09-13T08:48:24.171392Z"
+    "totalParsed": 683,
+    "submitted": 682,
+    "failed": 0,
+    "whitelistSkipped": 1,
+    "durationSeconds": 6344,
+    "received_at": "2026-09-13T09:11:05.130430Z"
   }
 ]
