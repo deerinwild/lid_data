@@ -874,5 +874,29 @@
     "timestamp": "2026-09-15T17:26:33.167694",
     "clientType": "android-apk",
     "received_at": "2026-09-15T09:26:34.182698Z"
+  },
+  {
+    "userUid": "275161589",
+    "taskType": "local",
+    "timestamp": "2026-09-15T09:24:31.392Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 3233,
+    "submitted": 3131,
+    "failed": 51,
+    "whitelistSkipped": 51,
+    "durationSeconds": 2773,
+    "received_at": "2026-09-15T09:26:46.833604Z"
+  },
+  {
+    "userUid": "275161589",
+    "taskType": "local",
+    "timestamp": "2026-09-15T09:24:33.142Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 3233,
+    "submitted": 3131,
+    "failed": 51,
+    "whitelistSkipped": 51,
+    "durationSeconds": 0,
+    "received_at": "2026-09-15T09:26:53.855419Z"
   }
 ]
