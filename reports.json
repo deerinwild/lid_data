@@ -1,74 +1,26 @@
 [
   {
-    "userUid": "293387933",
+    "userUid": "287670141",
     "taskType": "local",
-    "timestamp": "2026-09-15T15:57:50.849Z",
+    "timestamp": "2026-09-15T17:29:12.837Z",
     "clientType": "chrome-extension",
-    "totalParsed": 3232,
-    "submitted": 3179,
-    "failed": 2,
-    "whitelistSkipped": 51,
-    "durationSeconds": 15202,
-    "received_at": "2026-09-15T15:58:14.446767Z"
-  },
-  {
-    "userUid": "184540043",
-    "taskType": "local",
-    "timestamp": "2026-09-15T16:02:11.318Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3231,
-    "submitted": 3178,
-    "failed": 1,
+    "totalParsed": 3204,
+    "submitted": 3152,
+    "failed": 0,
     "whitelistSkipped": 52,
-    "durationSeconds": 3543,
-    "received_at": "2026-09-15T16:02:11.588068Z"
+    "durationSeconds": 5072,
+    "received_at": "2026-09-15T17:29:35.944268Z"
   },
   {
-    "userUid": "287781096",
-    "taskType": "local",
-    "timestamp": "2026-09-15T16:10:40.334Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3232,
-    "submitted": 2734,
-    "failed": 180,
-    "whitelistSkipped": 51,
-    "durationSeconds": 6642,
-    "received_at": "2026-09-15T16:10:42.155093Z"
-  },
-  {
-    "userUid": "287781096",
-    "taskType": "local",
-    "timestamp": "2026-09-15T16:10:41.951Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3232,
-    "submitted": 2734,
-    "failed": 180,
-    "whitelistSkipped": 51,
-    "durationSeconds": 0,
-    "received_at": "2026-09-15T16:10:44.657052Z"
-  },
-  {
-    "userUid": "287781096",
-    "taskType": "local",
-    "timestamp": "2026-09-15T16:10:44.434Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3232,
-    "submitted": 2734,
-    "failed": 180,
-    "whitelistSkipped": 51,
-    "durationSeconds": 0,
-    "received_at": "2026-09-15T16:10:46.755757Z"
-  },
-  {
-    "userUid": "282648593",
+    "userUid": "205524704",
     "taskType": "daily",
-    "totalParsed": 442,
-    "submitted": 433,
-    "failed": 1,
+    "totalParsed": 1074,
+    "submitted": 994,
+    "failed": 72,
     "whitelistSkipped": 8,
-    "durationSeconds": 5249,
-    "timestamp": "2026-09-16T00:12:42.310345",
+    "durationSeconds": 13612,
+    "timestamp": "2026-09-16T01:33:15.040556",
     "clientType": "android-apk",
-    "received_at": "2026-09-15T16:12:43.130370Z"
+    "received_at": "2026-09-15T17:33:16.562673Z"
   }
 ]
