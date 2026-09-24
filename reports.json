@@ -1,26 +1,62 @@
 [
   {
-    "userUid": "240839535",
+    "userUid": "287483530",
     "taskType": "local",
-    "timestamp": "2026-09-24T11:01:19.927Z",
+    "timestamp": "2026-09-24T11:31:04.344Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2347,
-    "submitted": 2284,
-    "failed": 9,
+    "totalParsed": 2217,
+    "submitted": 2137,
+    "failed": 20,
     "whitelistSkipped": 60,
-    "durationSeconds": 25069,
-    "received_at": "2026-09-24T11:01:42.457403Z"
+    "durationSeconds": 5441,
+    "received_at": "2026-09-24T11:31:27.356210Z"
   },
   {
-    "userUid": "141652909",
+    "userUid": "239486049",
     "taskType": "local",
-    "timestamp": "2026-09-24T11:10:09.150Z",
+    "timestamp": "2026-09-24T11:33:43.904Z",
     "clientType": "chrome-extension",
-    "totalParsed": 4660,
-    "submitted": 3315,
-    "failed": 1315,
-    "whitelistSkipped": 30,
-    "durationSeconds": 5167,
-    "received_at": "2026-09-24T11:10:09.707172Z"
+    "totalParsed": 2261,
+    "submitted": 1723,
+    "failed": 478,
+    "whitelistSkipped": 60,
+    "durationSeconds": 24879,
+    "received_at": "2026-09-24T11:33:44.203317Z"
+  },
+  {
+    "userUid": "281111531",
+    "taskType": "local",
+    "timestamp": "2026-09-24T11:34:33.678Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2281,
+    "submitted": 2183,
+    "failed": 44,
+    "whitelistSkipped": 60,
+    "durationSeconds": 2593,
+    "received_at": "2026-09-24T11:34:34.011045Z"
+  },
+  {
+    "userUid": "276285260",
+    "taskType": "local",
+    "timestamp": "2026-09-24T11:35:06.183Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2303,
+    "submitted": 2231,
+    "failed": 12,
+    "whitelistSkipped": 60,
+    "durationSeconds": 11255,
+    "received_at": "2026-09-24T11:35:06.459695Z"
+  },
+  {
+    "userUid": "124649617",
+    "taskType": "temp",
+    "totalParsed": 211,
+    "submitted": 205,
+    "failed": 0,
+    "whitelistSkipped": 6,
+    "durationSeconds": 2499,
+    "timestamp": "2026-09-24T19:40:05.061556",
+    "clientType": "android-apk",
+    "received_at": "2026-09-24T11:40:07.064450Z"
   }
 ]
