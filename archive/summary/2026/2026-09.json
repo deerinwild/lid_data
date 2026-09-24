@@ -441,22 +441,22 @@
     "2026-09-24": {
       "date": "2026-09-24",
       "recordsPath": "archive/reports/2026/09/2026-09-24.json",
-      "reportCount": 200,
+      "reportCount": 201,
       "activeUsers": 75,
-      "totalParsed": 134057,
-      "submitted": 118817,
+      "totalParsed": 134537,
+      "submitted": 119297,
       "failed": 5093,
       "whitelistSkipped": 3254,
-      "durationSeconds": 405799,
+      "durationSeconds": 406381,
       "taskTypes": {
         "daily": 19,
         "temp": 39,
-        "local": 142,
+        "local": 143,
         "unknown": 0
       },
       "lastSeenAt": "2026-09-24T14:18:42.654615Z",
-      "updatedAt": "2026-09-24T06:24:03.679787Z"
+      "updatedAt": "2026-09-24T06:25:36.279569Z"
     }
   },
-  "updatedAt": "2026-09-24T06:24:03.679796Z"
+  "updatedAt": "2026-09-24T06:25:36.279577Z"
 }
