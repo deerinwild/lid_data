@@ -517,41 +517,60 @@
     "2026-09-28": {
       "date": "2026-09-28",
       "recordsPath": "archive/reports/2026/09/2026-09-28.json",
-      "reportCount": 212,
-      "activeUsers": 99,
-      "totalParsed": 179754,
-      "submitted": 162739,
-      "failed": 9180,
-      "whitelistSkipped": 3404,
-      "durationSeconds": 436513,
+      "reportCount": 234,
+      "activeUsers": 106,
+      "totalParsed": 199408,
+      "submitted": 178465,
+      "failed": 12652,
+      "whitelistSkipped": 3860,
+      "durationSeconds": 528993,
       "taskTypes": {
-        "daily": 28,
-        "temp": 18,
-        "local": 166,
+        "daily": 31,
+        "temp": 23,
+        "local": 180,
         "unknown": 0
       },
-      "lastSeenAt": "2026-09-28T23:04:56.647484Z",
-      "updatedAt": "2026-09-28T15:19:19.026060Z"
+      "lastSeenAt": "2026-09-28T23:04:56.647484",
+      "updatedAt": "2026-09-28T15:37:18.153866471Z"
     },
     "2026-09-29": {
       "date": "2026-09-29",
       "recordsPath": "archive/reports/2026/09/2026-09-29.json",
-      "reportCount": 442,
-      "activeUsers": 164,
-      "totalParsed": 382110,
-      "submitted": 334768,
-      "failed": 20803,
-      "whitelistSkipped": 10698,
-      "durationSeconds": 1081946,
+      "reportCount": 477,
+      "activeUsers": 179,
+      "totalParsed": 422590,
+      "submitted": 364530,
+      "failed": 29775,
+      "whitelistSkipped": 11852,
+      "durationSeconds": 1250846,
       "taskTypes": {
-        "daily": 125,
-        "temp": 58,
-        "local": 259,
+        "daily": 140,
+        "temp": 68,
+        "local": 269,
         "unknown": 0
       },
-      "lastSeenAt": "2026-09-29T21:13:11.960134Z",
-      "updatedAt": "2026-09-29T13:21:29.479479Z"
+      "lastSeenAt": "2026-09-29T23:04:26.594228",
+      "updatedAt": "2026-09-29T15:27:39.063893656Z"
+    },
+    "2026-09-30": {
+      "date": "2026-09-30",
+      "recordsPath": "archive/reports/2026/09/2026-09-30.json",
+      "reportCount": 269,
+      "activeUsers": 118,
+      "totalParsed": 342776,
+      "submitted": 294699,
+      "failed": 32192,
+      "whitelistSkipped": 8132,
+      "durationSeconds": 1550446,
+      "taskTypes": {
+        "daily": 56,
+        "temp": 31,
+        "local": 182,
+        "unknown": 0
+      },
+      "lastSeenAt": "2026-09-30T18:06:47.720216",
+      "updatedAt": "2026-09-30T10:13:59.819903743Z"
     }
   },
-  "updatedAt": "2026-09-29T13:21:29.479493Z"
+  "updatedAt": "2026-09-30T10:13:59.819903743Z"
 }
