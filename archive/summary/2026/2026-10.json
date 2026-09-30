@@ -1,0 +1,25 @@
+{
+  "month": "2026-10",
+  "days": {
+    "2026-10-01": {
+      "date": "2026-10-01",
+      "recordsPath": "archive/reports/2026/10/2026-10-01.json",
+      "reportCount": 1,
+      "activeUsers": 1,
+      "totalParsed": 14,
+      "submitted": 14,
+      "failed": 0,
+      "whitelistSkipped": 0,
+      "durationSeconds": 74,
+      "taskTypes": {
+        "daily": 0,
+        "temp": 1,
+        "local": 0,
+        "unknown": 0
+      },
+      "lastSeenAt": "2026-09-30T18:45:54.780591Z",
+      "updatedAt": "2026-09-30T18:45:58.577105Z"
+    }
+  },
+  "updatedAt": "2026-09-30T18:45:58.577113Z"
+}
