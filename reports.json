@@ -1,74 +1,14 @@
 [
   {
-    "userUid": "275549646",
+    "userUid": "276245364",
     "taskType": "local",
-    "timestamp": "2026-10-02T03:12:59.388Z",
+    "timestamp": "2026-10-02T03:54:51.096Z",
     "clientType": "chrome-extension",
-    "totalParsed": 2969,
-    "submitted": 2117,
-    "failed": 760,
-    "whitelistSkipped": 92,
-    "durationSeconds": 6212,
-    "received_at": "2026-10-02T03:13:21.996344Z"
-  },
-  {
-    "userUid": "295457177",
-    "taskType": "daily",
-    "totalParsed": 637,
-    "submitted": 611,
-    "failed": 4,
-    "whitelistSkipped": 22,
-    "durationSeconds": 5766,
-    "timestamp": "2026-10-02T11:15:06.897112",
-    "clientType": "android-apk",
-    "received_at": "2026-10-02T03:15:08.857384Z"
-  },
-  {
-    "userUid": "290233710",
-    "taskType": "local",
-    "timestamp": "2026-10-02T03:27:11.195Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2909,
-    "submitted": 2427,
-    "failed": 393,
+    "totalParsed": 2929,
+    "submitted": 2329,
+    "failed": 511,
     "whitelistSkipped": 89,
-    "durationSeconds": 4801,
-    "received_at": "2026-10-02T03:27:05.861744Z"
-  },
-  {
-    "userUid": "287061660",
-    "taskType": "daily",
-    "totalParsed": 641,
-    "submitted": 157,
-    "failed": 0,
-    "whitelistSkipped": 22,
-    "durationSeconds": 1878,
-    "timestamp": "2026-10-02T11:29:26.389839",
-    "clientType": "android-apk",
-    "received_at": "2026-10-02T03:29:27.730300Z"
-  },
-  {
-    "userUid": "218132313",
-    "taskType": "daily",
-    "totalParsed": 377,
-    "submitted": 356,
-    "failed": 4,
-    "whitelistSkipped": 17,
-    "durationSeconds": 0,
-    "timestamp": "2026-10-02T11:32:37.818137",
-    "clientType": "android-apk",
-    "received_at": "2026-10-02T03:32:39.440179Z"
-  },
-  {
-    "userUid": "239486049",
-    "taskType": "local",
-    "timestamp": "2026-10-02T03:33:11.772Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2911,
-    "submitted": 2818,
-    "failed": 4,
-    "whitelistSkipped": 89,
-    "durationSeconds": 29131,
-    "received_at": "2026-10-02T03:33:11.600446Z"
+    "durationSeconds": 3051,
+    "received_at": "2026-10-02T03:55:12.462896Z"
   }
 ]
