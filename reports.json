@@ -2422,5 +2422,17 @@
     "timestamp": "2026-10-06T17:19:16.149144",
     "clientType": "android-apk",
     "received_at": "2026-10-06T09:19:18.193748Z"
+  },
+  {
+    "userUid": "231425470",
+    "taskType": "local",
+    "timestamp": "2026-10-06T09:25:44.637Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 63,
+    "submitted": 60,
+    "failed": 0,
+    "whitelistSkipped": 3,
+    "durationSeconds": 635,
+    "received_at": "2026-10-06T09:25:45.399544Z"
   }
 ]
