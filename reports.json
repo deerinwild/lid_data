@@ -1,74 +1,14 @@
 [
   {
-    "userUid": "169270663",
-    "taskType": "temp",
-    "timestamp": "2026-10-07T17:42:39.331Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 144,
-    "submitted": 140,
-    "failed": 0,
-    "whitelistSkipped": 4,
-    "durationSeconds": 717,
-    "received_at": "2026-10-07T17:43:01.657828Z"
-  },
-  {
-    "userUid": "293384036",
-    "taskType": "temp",
-    "totalParsed": 134,
-    "submitted": 7,
-    "failed": 26,
-    "whitelistSkipped": 3,
-    "durationSeconds": 223,
-    "timestamp": "2026-10-08T01:44:25.952310",
-    "clientType": "android-apk",
-    "received_at": "2026-10-07T17:44:27.526431Z"
-  },
-  {
-    "userUid": "293384036",
-    "taskType": "temp",
-    "totalParsed": 134,
-    "submitted": 0,
-    "failed": 1,
-    "whitelistSkipped": 3,
-    "durationSeconds": 8,
-    "timestamp": "2026-10-08T01:45:14.085243",
-    "clientType": "android-apk",
-    "received_at": "2026-10-07T17:45:15.454027Z"
-  },
-  {
-    "userUid": "293384036",
-    "taskType": "temp",
-    "totalParsed": 134,
-    "submitted": 1,
-    "failed": 1,
-    "whitelistSkipped": 3,
-    "durationSeconds": 14,
-    "timestamp": "2026-10-08T01:47:13.898297",
-    "clientType": "android-apk",
-    "received_at": "2026-10-07T17:47:14.870384Z"
-  },
-  {
-    "userUid": "239486049",
-    "taskType": "local",
-    "timestamp": "2026-10-07T17:55:48.469Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2746,
-    "submitted": 2663,
-    "failed": 2,
-    "whitelistSkipped": 81,
-    "durationSeconds": 27813,
-    "received_at": "2026-10-07T17:55:49.209174Z"
-  },
-  {
-    "userUid": "278667584",
+    "userUid": "291676399",
     "taskType": "daily",
-    "totalParsed": 719,
-    "submitted": 0,
-    "failed": 706,
+    "totalParsed": 798,
+    "submitted": 185,
+    "failed": 600,
     "whitelistSkipped": 13,
-    "durationSeconds": 2302,
-    "timestamp": "2026-10-08T02:06:19.530483",
+    "durationSeconds": 4975,
+    "timestamp": "2026-10-08T02:36:52.838311",
     "clientType": "android-apk",
-    "received_at": "2026-10-07T18:06:20.826662Z"
+    "received_at": "2026-10-07T18:37:15.836444Z"
   }
 ]
