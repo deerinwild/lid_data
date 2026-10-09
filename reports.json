@@ -1654,5 +1654,17 @@
     "whitelistSkipped": 0,
     "durationSeconds": 113,
     "received_at": "2026-10-09T05:33:14.923437Z"
+  },
+  {
+    "userUid": "285480531",
+    "taskType": "local",
+    "timestamp": "2026-10-09T05:33:58.809Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1764,
+    "submitted": 1745,
+    "failed": 2,
+    "whitelistSkipped": 17,
+    "durationSeconds": 2168,
+    "received_at": "2026-10-09T05:34:00.191525Z"
   }
 ]
