@@ -1,98 +1,14 @@
 [
   {
-    "userUid": "276658128",
-    "taskType": "daily",
-    "timestamp": "2026-10-18T10:24:55.080Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 673,
-    "submitted": 648,
-    "failed": 0,
-    "whitelistSkipped": 25,
-    "durationSeconds": 1030,
-    "received_at": "2026-10-18T10:25:17.886719Z"
-  },
-  {
-    "userUid": "283372301",
-    "taskType": "local",
-    "timestamp": "2026-10-18T10:29:21.617Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 4599,
-    "submitted": 4481,
-    "failed": 0,
-    "whitelistSkipped": 118,
-    "durationSeconds": 19293,
-    "received_at": "2026-10-18T10:29:22.493797Z"
-  },
-  {
-    "userUid": "177237175",
-    "taskType": "daily",
-    "totalParsed": 694,
-    "submitted": 662,
-    "failed": 5,
-    "whitelistSkipped": 27,
-    "durationSeconds": 8849,
-    "timestamp": "2026-10-18T18:36:15.176313",
-    "clientType": "android-apk",
-    "received_at": "2026-10-18T10:36:16.162661Z"
-  },
-  {
-    "userUid": "276658128",
-    "taskType": "daily",
-    "timestamp": "2026-10-18T10:50:40.589Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 673,
-    "submitted": 643,
-    "failed": 8,
-    "whitelistSkipped": 25,
-    "durationSeconds": 1284,
-    "received_at": "2026-10-18T10:50:41.067195Z"
-  },
-  {
     "userUid": "56721642",
     "taskType": "local",
-    "timestamp": "2026-10-18T10:52:09.694Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1216,
-    "submitted": 1201,
-    "failed": 18,
-    "whitelistSkipped": 9,
-    "durationSeconds": 16858,
-    "received_at": "2026-10-18T10:52:10.311727Z"
-  },
-  {
-    "userUid": "276658128",
-    "taskType": "temp",
-    "timestamp": "2026-10-18T10:58:32.043Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 282,
-    "submitted": 275,
-    "failed": 0,
-    "whitelistSkipped": 7,
-    "durationSeconds": 436,
-    "received_at": "2026-10-18T10:58:32.704316Z"
-  },
-  {
-    "userUid": "276658128",
-    "taskType": "temp",
-    "timestamp": "2026-10-18T11:05:57.729Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 282,
-    "submitted": 275,
-    "failed": 0,
-    "whitelistSkipped": 7,
-    "durationSeconds": 434,
-    "received_at": "2026-10-18T11:05:59.613229Z"
-  },
-  {
-    "userUid": "283372301",
-    "taskType": "local",
-    "timestamp": "2026-10-18T11:09:59.082Z",
+    "timestamp": "2026-10-18T11:42:36.525Z",
     "clientType": "chrome-extension",
     "totalParsed": 357,
-    "submitted": 0,
-    "failed": 9,
+    "submitted": 350,
+    "failed": 0,
     "whitelistSkipped": 7,
-    "durationSeconds": 24,
-    "received_at": "2026-10-18T11:09:59.811522Z"
+    "durationSeconds": 1989,
+    "received_at": "2026-10-18T11:42:59.280867Z"
   }
 ]
