@@ -403,22 +403,22 @@
     "2026-10-22": {
       "date": "2026-10-22",
       "recordsPath": "archive/reports/2026/10/2026-10-22.json",
-      "reportCount": 1,
-      "activeUsers": 1,
-      "totalParsed": 4330,
-      "submitted": 4081,
-      "failed": 41,
-      "whitelistSkipped": 214,
-      "durationSeconds": 17959,
+      "reportCount": 2,
+      "activeUsers": 2,
+      "totalParsed": 4680,
+      "submitted": 4359,
+      "failed": 42,
+      "whitelistSkipped": 285,
+      "durationSeconds": 21783,
       "taskTypes": {
-        "daily": 0,
+        "daily": 1,
         "temp": 0,
         "local": 1,
         "unknown": 0
       },
-      "lastSeenAt": "2026-10-21T16:02:20.684676Z",
-      "updatedAt": "2026-10-21T16:02:24.569584Z"
+      "lastSeenAt": "2026-10-22T00:37:40.057105Z",
+      "updatedAt": "2026-10-21T16:38:32.435082Z"
     }
   },
-  "updatedAt": "2026-10-21T16:02:24.569595Z"
+  "updatedAt": "2026-10-21T16:38:32.435090Z"
 }
