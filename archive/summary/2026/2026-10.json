@@ -422,22 +422,22 @@
     "2026-10-23": {
       "date": "2026-10-23",
       "recordsPath": "archive/reports/2026/10/2026-10-23.json",
-      "reportCount": 179,
+      "reportCount": 180,
       "activeUsers": 71,
-      "totalParsed": 443142,
-      "submitted": 260220,
+      "totalParsed": 443939,
+      "submitted": 260396,
       "failed": 3966,
-      "whitelistSkipped": 26014,
+      "whitelistSkipped": 26111,
       "durationSeconds": 842751,
       "taskTypes": {
-        "daily": 35,
+        "daily": 36,
         "temp": 1,
         "local": 143,
         "unknown": 0
       },
       "lastSeenAt": "2026-10-23T14:50:58.986919Z",
-      "updatedAt": "2026-10-23T07:08:59.042340Z"
+      "updatedAt": "2026-10-23T07:10:58.937734Z"
     }
   },
-  "updatedAt": "2026-10-23T07:08:59.042355Z"
+  "updatedAt": "2026-10-23T07:10:58.937748Z"
 }
