@@ -46,5 +46,29 @@
     "whitelistSkipped": 74,
     "durationSeconds": 3055,
     "received_at": "2026-10-26T14:17:37.392200Z"
+  },
+  {
+    "userUid": "57875286",
+    "taskType": "local",
+    "timestamp": "2026-10-26T14:28:35.623Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 3815,
+    "submitted": 2553,
+    "failed": 6,
+    "whitelistSkipped": 205,
+    "durationSeconds": 0,
+    "received_at": "2026-10-26T14:28:26.496808Z"
+  },
+  {
+    "userUid": "188677737",
+    "taskType": "local",
+    "timestamp": "2026-10-26T14:39:44.922Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 2505,
+    "submitted": 2425,
+    "failed": 14,
+    "whitelistSkipped": 70,
+    "durationSeconds": 40461,
+    "received_at": "2026-10-26T14:39:46.510838Z"
   }
 ]
