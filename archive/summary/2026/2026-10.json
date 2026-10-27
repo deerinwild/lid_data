@@ -498,22 +498,22 @@
     "2026-10-27": {
       "date": "2026-10-27",
       "recordsPath": "archive/reports/2026/10/2026-10-27.json",
-      "reportCount": 23,
+      "reportCount": 24,
       "activeUsers": 14,
-      "totalParsed": 37817,
-      "submitted": 27471,
+      "totalParsed": 37860,
+      "submitted": 27514,
       "failed": 64,
       "whitelistSkipped": 1280,
-      "durationSeconds": 208737,
+      "durationSeconds": 209115,
       "taskTypes": {
         "daily": 4,
         "temp": 1,
-        "local": 18,
+        "local": 19,
         "unknown": 0
       },
       "lastSeenAt": "2026-10-27T09:20:46.003276Z",
-      "updatedAt": "2026-10-27T01:44:01.453848Z"
+      "updatedAt": "2026-10-27T01:49:55.951763Z"
     }
   },
-  "updatedAt": "2026-10-27T01:44:01.453860Z"
+  "updatedAt": "2026-10-27T01:49:55.951771Z"
 }
