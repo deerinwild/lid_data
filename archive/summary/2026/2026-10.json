@@ -555,22 +555,22 @@
     "2026-10-30": {
       "date": "2026-10-30",
       "recordsPath": "archive/reports/2026/10/2026-10-30.json",
-      "reportCount": 153,
+      "reportCount": 154,
       "activeUsers": 60,
-      "totalParsed": 154074,
-      "submitted": 138944,
+      "totalParsed": 154099,
+      "submitted": 138969,
       "failed": 565,
       "whitelistSkipped": 3457,
-      "durationSeconds": 531854,
+      "durationSeconds": 531875,
       "taskTypes": {
         "daily": 16,
         "temp": 24,
-        "local": 113,
+        "local": 114,
         "unknown": 0
       },
       "lastSeenAt": "2026-10-30T13:34:19.231000Z",
-      "updatedAt": "2026-10-30T05:41:05.411624Z"
+      "updatedAt": "2026-10-30T05:42:01.908962Z"
     }
   },
-  "updatedAt": "2026-10-30T05:41:05.411635Z"
+  "updatedAt": "2026-10-30T05:42:01.908973Z"
 }
