@@ -1,62 +1,14 @@
 [
   {
-    "userUid": "285499804",
-    "taskType": "temp",
-    "totalParsed": 126,
-    "submitted": 126,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 1464,
-    "timestamp": "2026-10-31T16:57:11.198634",
-    "clientType": "android-apk",
-    "received_at": "2026-10-31T08:57:35.161183Z"
-  },
-  {
-    "userUid": "168872170",
+    "userUid": "63282608",
     "taskType": "daily",
-    "totalParsed": 547,
-    "submitted": 534,
-    "failed": 11,
-    "whitelistSkipped": 0,
-    "durationSeconds": 9824,
-    "timestamp": "2026-10-31T17:01:19.989543",
-    "clientType": "android-apk",
-    "received_at": "2026-10-31T09:01:22.150855Z"
-  },
-  {
-    "userUid": "284505849",
-    "taskType": "daily",
-    "totalParsed": 461,
-    "submitted": 455,
-    "failed": 6,
-    "whitelistSkipped": 0,
-    "durationSeconds": 6881,
-    "timestamp": "2026-10-31T17:01:41.140882",
-    "clientType": "android-apk",
-    "received_at": "2026-10-31T09:01:42.376714Z"
-  },
-  {
-    "userUid": "59919960",
-    "taskType": "local",
-    "timestamp": "2026-10-31T09:02:47.160Z",
+    "timestamp": "2026-10-31T09:35:58.960Z",
     "clientType": "chrome-extension",
-    "totalParsed": 3020,
-    "submitted": 2969,
-    "failed": 1,
-    "whitelistSkipped": 50,
-    "durationSeconds": 3200,
-    "received_at": "2026-10-31T09:02:48.970600Z"
-  },
-  {
-    "userUid": "276245364",
-    "taskType": "local",
-    "timestamp": "2026-10-31T09:02:52.680Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 3008,
-    "submitted": 2957,
-    "failed": 1,
-    "whitelistSkipped": 50,
-    "durationSeconds": 3178,
-    "received_at": "2026-10-31T09:02:54.207554Z"
+    "totalParsed": 639,
+    "submitted": 634,
+    "failed": 5,
+    "whitelistSkipped": 0,
+    "durationSeconds": 17260,
+    "received_at": "2026-10-31T09:36:00.907953Z"
   }
 ]
