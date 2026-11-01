@@ -1,74 +1,14 @@
 [
   {
-    "userUid": "169270663",
-    "taskType": "local",
-    "timestamp": "2026-11-01T12:49:19.409Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2367,
-    "submitted": 2306,
-    "failed": 11,
-    "whitelistSkipped": 50,
-    "durationSeconds": 16491,
-    "received_at": "2026-11-01T12:49:40.502552Z"
-  },
-  {
-    "userUid": "179150166",
-    "taskType": "local",
-    "timestamp": "2026-11-01T12:59:31.198Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2274,
-    "submitted": 2223,
-    "failed": 1,
-    "whitelistSkipped": 50,
-    "durationSeconds": 10434,
-    "received_at": "2026-11-01T12:59:32.356019Z"
-  },
-  {
-    "userUid": "278966829",
-    "taskType": "temp",
-    "totalParsed": 250,
-    "submitted": 23,
-    "failed": 13,
-    "whitelistSkipped": 2,
-    "durationSeconds": 1007,
-    "timestamp": "2026-11-01T21:07:54.182209",
-    "clientType": "android-apk",
-    "received_at": "2026-11-01T13:07:57.007110Z"
-  },
-  {
-    "userUid": "238508438",
-    "taskType": "temp",
-    "totalParsed": 126,
-    "submitted": 126,
-    "failed": 0,
+    "userUid": "287416973",
+    "taskType": "daily",
+    "totalParsed": 804,
+    "submitted": 790,
+    "failed": 14,
     "whitelistSkipped": 0,
-    "durationSeconds": 1227,
-    "timestamp": "2026-11-01T21:14:14.039131",
+    "durationSeconds": 11020,
+    "timestamp": "2026-11-01T21:56:07.672508",
     "clientType": "android-apk",
-    "received_at": "2026-11-01T13:14:15.847860Z"
-  },
-  {
-    "userUid": "63282608",
-    "taskType": "local",
-    "timestamp": "2026-11-01T13:27:17.134Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2360,
-    "submitted": 2309,
-    "failed": 1,
-    "whitelistSkipped": 50,
-    "durationSeconds": 4211,
-    "received_at": "2026-11-01T13:27:18.329009Z"
-  },
-  {
-    "userUid": "250665707",
-    "taskType": "temp",
-    "totalParsed": 126,
-    "submitted": 125,
-    "failed": 1,
-    "whitelistSkipped": 0,
-    "durationSeconds": 1461,
-    "timestamp": "2026-11-01T21:40:59.253153",
-    "clientType": "android-apk",
-    "received_at": "2026-11-01T13:41:01.456831Z"
+    "received_at": "2026-11-01T13:56:33.059011Z"
   }
 ]
