@@ -3202,5 +3202,29 @@
     "whitelistSkipped": 0,
     "durationSeconds": 75,
     "received_at": "2026-11-04T09:51:48.124323Z"
+  },
+  {
+    "userUid": "293542898",
+    "taskType": "local",
+    "timestamp": "2026-11-04T09:57:19.482Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1311,
+    "submitted": 1274,
+    "failed": 9,
+    "whitelistSkipped": 28,
+    "durationSeconds": 0,
+    "received_at": "2026-11-04T09:57:20.093685Z"
+  },
+  {
+    "userUid": "293542898",
+    "taskType": "local",
+    "timestamp": "2026-11-04T09:57:26.049Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1311,
+    "submitted": 1274,
+    "failed": 9,
+    "whitelistSkipped": 28,
+    "durationSeconds": 0,
+    "received_at": "2026-11-04T09:57:25.261926Z"
   }
 ]
