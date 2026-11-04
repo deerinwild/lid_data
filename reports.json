@@ -3526,5 +3526,29 @@
     "whitelistSkipped": 30,
     "durationSeconds": 3773,
     "received_at": "2026-11-04T10:22:52.777943Z"
+  },
+  {
+    "userUid": "283623073",
+    "taskType": "daily",
+    "totalParsed": 482,
+    "submitted": 477,
+    "failed": 1,
+    "whitelistSkipped": 4,
+    "durationSeconds": 6566,
+    "timestamp": "2026-11-04T18:34:00.562309",
+    "clientType": "android-apk",
+    "received_at": "2026-11-04T10:34:01.900702Z"
+  },
+  {
+    "userUid": "239486049",
+    "taskType": "local",
+    "timestamp": "2026-11-04T10:35:16.187Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1371,
+    "submitted": 1338,
+    "failed": 5,
+    "whitelistSkipped": 28,
+    "durationSeconds": 0,
+    "received_at": "2026-11-04T10:35:17.211342Z"
   }
 ]
