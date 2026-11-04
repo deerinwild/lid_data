@@ -4354,5 +4354,41 @@
     "whitelistSkipped": 0,
     "durationSeconds": 3,
     "received_at": "2026-11-04T09:49:34.035844Z"
+  },
+  {
+    "userUid": "128131935",
+    "taskType": "local",
+    "timestamp": "2026-11-04T09:50:22.737Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 36,
+    "submitted": 36,
+    "failed": 0,
+    "whitelistSkipped": 0,
+    "durationSeconds": 74,
+    "received_at": "2026-11-04T09:50:25.424973Z"
+  },
+  {
+    "userUid": "285314153",
+    "taskType": "local",
+    "timestamp": "2026-11-04T09:51:27.123Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 36,
+    "submitted": 36,
+    "failed": 0,
+    "whitelistSkipped": 0,
+    "durationSeconds": 81,
+    "received_at": "2026-11-04T09:51:27.843058Z"
+  },
+  {
+    "userUid": "128131935",
+    "taskType": "local",
+    "timestamp": "2026-11-04T09:51:45.533Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 36,
+    "submitted": 36,
+    "failed": 0,
+    "whitelistSkipped": 0,
+    "durationSeconds": 75,
+    "received_at": "2026-11-04T09:51:48.124323Z"
   }
 ]
