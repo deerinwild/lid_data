@@ -4546,5 +4546,29 @@
     "whitelistSkipped": 0,
     "durationSeconds": 78,
     "received_at": "2026-11-04T10:02:51.855445Z"
+  },
+  {
+    "userUid": "285314153",
+    "taskType": "local",
+    "timestamp": "2026-11-04T10:04:05.764Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 36,
+    "submitted": 36,
+    "failed": 0,
+    "whitelistSkipped": 0,
+    "durationSeconds": 76,
+    "received_at": "2026-11-04T10:04:06.614432Z"
+  },
+  {
+    "userUid": "290588127",
+    "taskType": "local",
+    "timestamp": "2026-11-04T10:04:16.516Z",
+    "clientType": "chrome-extension",
+    "totalParsed": 1391,
+    "submitted": 1361,
+    "failed": 0,
+    "whitelistSkipped": 30,
+    "durationSeconds": 4059,
+    "received_at": "2026-11-04T10:04:16.687217Z"
   }
 ]
