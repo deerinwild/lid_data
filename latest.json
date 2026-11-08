@@ -1,11 +1,25 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T15:45:51.611990Z",
-  "latestDate": "2026-11-08",
+  "updatedAt": "2026-11-08T16:08:36.172606Z",
+  "latestDate": "2026-11-09",
   "latestMonth": "2026-11",
-  "latestRecordsPath": "archive/reports/2026/11/2026-11-08.json",
+  "latestRecordsPath": "archive/reports/2026/11/2026-11-09.json",
   "latestSummaryPath": "archive/summary/2026/2026-11.json",
   "days": [
+    {
+      "date": "2026-11-09",
+      "month": "2026-11",
+      "recordsPath": "archive/reports/2026/11/2026-11-09.json",
+      "summaryPath": "archive/summary/2026/2026-11.json",
+      "updatedAt": "2026-11-08T16:08:36.171531Z",
+      "reportCount": 1,
+      "activeUsers": 1,
+      "totalParsed": 493,
+      "submitted": 491,
+      "failed": 0,
+      "whitelistSkipped": 2,
+      "lastSeenAt": "2026-11-09T00:08:31.586984Z"
+    },
     {
       "date": "2026-11-08",
       "month": "2026-11",
@@ -1251,20 +1265,6 @@
       "failed": 41585,
       "whitelistSkipped": 15693,
       "lastSeenAt": "2026-08-07T23:35:11.580284Z"
-    },
-    {
-      "date": "2026-08-06",
-      "month": "2026-08",
-      "recordsPath": "archive/reports/2026/08/2026-08-06.json",
-      "summaryPath": "archive/summary/2026/2026-08.json",
-      "updatedAt": "2026-08-06T15:55:06.620180Z",
-      "reportCount": 284,
-      "activeUsers": 152,
-      "totalParsed": 462970,
-      "submitted": 348394,
-      "failed": 41331,
-      "whitelistSkipped": 17219,
-      "lastSeenAt": "2026-08-06T23:55:04.667068Z"
     }
   ]
 }
