@@ -175,22 +175,22 @@
     "2026-11-10": {
       "date": "2026-11-10",
       "recordsPath": "archive/reports/2026/11/2026-11-10.json",
-      "reportCount": 49,
+      "reportCount": 50,
       "activeUsers": 40,
-      "totalParsed": 77402,
-      "submitted": 73594,
+      "totalParsed": 77418,
+      "submitted": 73610,
       "failed": 365,
       "whitelistSkipped": 570,
-      "durationSeconds": 338439,
+      "durationSeconds": 338608,
       "taskTypes": {
         "daily": 22,
         "temp": 3,
-        "local": 24,
+        "local": 25,
         "unknown": 0
       },
       "lastSeenAt": "2026-11-10T11:51:10.019650Z",
-      "updatedAt": "2026-11-10T03:51:11.956112Z"
+      "updatedAt": "2026-11-10T03:51:19.154937Z"
     }
   },
-  "updatedAt": "2026-11-10T03:51:11.956124Z"
+  "updatedAt": "2026-11-10T03:51:19.154945Z"
 }
