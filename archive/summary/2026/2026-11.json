@@ -213,22 +213,22 @@
     "2026-11-12": {
       "date": "2026-11-12",
       "recordsPath": "archive/reports/2026/11/2026-11-12.json",
-      "reportCount": 182,
+      "reportCount": 183,
       "activeUsers": 93,
-      "totalParsed": 270052,
-      "submitted": 232603,
+      "totalParsed": 270170,
+      "submitted": 232714,
       "failed": 966,
-      "whitelistSkipped": 3982,
+      "whitelistSkipped": 3989,
       "durationSeconds": 742227,
       "taskTypes": {
         "daily": 59,
         "temp": 4,
-        "local": 119,
+        "local": 120,
         "unknown": 0
       },
       "lastSeenAt": "2026-11-12T13:42:50.518802Z",
-      "updatedAt": "2026-11-12T05:42:54.648086Z"
+      "updatedAt": "2026-11-12T05:43:01.140638Z"
     }
   },
-  "updatedAt": "2026-11-12T05:42:54.648097Z"
+  "updatedAt": "2026-11-12T05:43:01.140650Z"
 }
