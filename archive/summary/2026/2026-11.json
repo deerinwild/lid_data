@@ -327,22 +327,22 @@
     "2026-11-18": {
       "date": "2026-11-18",
       "recordsPath": "archive/reports/2026/11/2026-11-18.json",
-      "reportCount": 8,
-      "activeUsers": 8,
-      "totalParsed": 13727,
-      "submitted": 13564,
-      "failed": 45,
-      "whitelistSkipped": 128,
-      "durationSeconds": 44192,
+      "reportCount": 9,
+      "activeUsers": 9,
+      "totalParsed": 14518,
+      "submitted": 14308,
+      "failed": 80,
+      "whitelistSkipped": 140,
+      "durationSeconds": 56019,
       "taskTypes": {
-        "daily": 1,
+        "daily": 2,
         "temp": 3,
         "local": 4,
         "unknown": 0
       },
-      "lastSeenAt": "2026-11-18T00:30:35.440313Z",
-      "updatedAt": "2026-11-17T16:30:36.963487Z"
+      "lastSeenAt": "2026-11-18T00:46:37.697681Z",
+      "updatedAt": "2026-11-17T16:47:04.717249Z"
     }
   },
-  "updatedAt": "2026-11-17T16:30:36.963500Z"
+  "updatedAt": "2026-11-17T16:47:04.717257Z"
 }
