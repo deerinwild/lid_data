@@ -1,74 +1,14 @@
 [
   {
-    "userUid": "287781096",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:42:04.379Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2227,
-    "submitted": 2196,
-    "failed": 8,
-    "whitelistSkipped": 30,
-    "durationSeconds": 4755,
-    "received_at": "2026-11-18T15:42:08.780804Z"
-  },
-  {
-    "userUid": "141652909",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:44:51.134Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 4360,
-    "submitted": 4328,
+    "userUid": "291594199",
+    "taskType": "daily",
+    "totalParsed": 416,
+    "submitted": 415,
     "failed": 1,
-    "whitelistSkipped": 31,
-    "durationSeconds": 4817,
-    "received_at": "2026-11-18T15:44:52.078507Z"
-  },
-  {
-    "userUid": "240839535",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:44:58.784Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2065,
-    "submitted": 1064,
-    "failed": 0,
-    "whitelistSkipped": 28,
-    "durationSeconds": 0,
-    "received_at": "2026-11-18T15:44:58.471211Z"
-  },
-  {
-    "userUid": "59919960",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:47:14.701Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2183,
-    "submitted": 2150,
-    "failed": 9,
-    "whitelistSkipped": 28,
-    "durationSeconds": 13092,
-    "received_at": "2026-11-18T15:47:18.812434Z"
-  },
-  {
-    "userUid": "276245364",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:47:43.663Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2183,
-    "submitted": 2150,
-    "failed": 5,
-    "whitelistSkipped": 28,
-    "durationSeconds": 13130,
-    "received_at": "2026-11-18T15:47:47.058396Z"
-  },
-  {
-    "userUid": "152636908",
-    "taskType": "local",
-    "timestamp": "2026-11-18T15:56:57.239Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 2183,
-    "submitted": 2150,
-    "failed": 8,
-    "whitelistSkipped": 28,
-    "durationSeconds": 4747,
-    "received_at": "2026-11-18T15:56:57.951148Z"
+    "whitelistSkipped": 0,
+    "durationSeconds": 4610,
+    "timestamp": "2026-11-19T00:13:15.412118",
+    "clientType": "android-apk",
+    "received_at": "2026-11-18T16:13:49.058627Z"
   }
 ]
