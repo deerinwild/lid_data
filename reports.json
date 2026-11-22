@@ -1,86 +1,14 @@
 [
   {
-    "userUid": "285488756",
-    "taskType": "daily",
-    "timestamp": "2026-11-22T05:28:54.083Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 72,
-    "submitted": 72,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 432,
-    "received_at": "2026-11-22T05:28:54.569767Z"
-  },
-  {
     "userUid": "128131935",
     "taskType": "local",
-    "timestamp": "2026-11-22T05:30:19.560Z",
+    "timestamp": "2026-11-22T05:55:39.833Z",
     "clientType": "chrome-extension",
     "totalParsed": 56,
-    "submitted": 56,
-    "failed": 0,
-    "whitelistSkipped": 0,
-    "durationSeconds": 277,
-    "received_at": "2026-11-22T05:30:20.932189Z"
-  },
-  {
-    "userUid": "230391739",
-    "taskType": "local",
-    "timestamp": "2026-11-22T05:30:33.070Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1737,
-    "submitted": 1724,
-    "failed": 0,
-    "whitelistSkipped": 13,
-    "durationSeconds": 2208,
-    "received_at": "2026-11-22T05:30:35.909652Z"
-  },
-  {
-    "userUid": "291032081",
-    "taskType": "local",
-    "timestamp": "2026-11-22T05:31:31.324Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1738,
-    "submitted": 1724,
+    "submitted": 55,
     "failed": 8,
-    "whitelistSkipped": 13,
-    "durationSeconds": 2250,
-    "received_at": "2026-11-22T05:31:40.664338Z"
-  },
-  {
-    "userUid": "276285260",
-    "taskType": "local",
-    "timestamp": "2026-11-22T05:35:27.152Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1936,
-    "submitted": 1919,
-    "failed": 0,
-    "whitelistSkipped": 17,
-    "durationSeconds": 4022,
-    "received_at": "2026-11-22T05:35:25.853038Z"
-  },
-  {
-    "userUid": "59919960",
-    "taskType": "local",
-    "timestamp": "2026-11-22T05:36:14.790Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1792,
-    "submitted": 1773,
-    "failed": 0,
-    "whitelistSkipped": 19,
-    "durationSeconds": 1915,
-    "received_at": "2026-11-22T05:36:19.060277Z"
-  },
-  {
-    "userUid": "276245364",
-    "taskType": "local",
-    "timestamp": "2026-11-22T05:37:00.109Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1822,
-    "submitted": 1803,
-    "failed": 0,
-    "whitelistSkipped": 19,
-    "durationSeconds": 1930,
-    "received_at": "2026-11-22T05:37:04.195224Z"
+    "whitelistSkipped": 0,
+    "durationSeconds": 280,
+    "received_at": "2026-11-22T05:56:02.856753Z"
   }
 ]
