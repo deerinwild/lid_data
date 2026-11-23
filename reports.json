@@ -1,26 +1,14 @@
 [
   {
-    "userUid": "273329418",
+    "userUid": "290588127",
     "taskType": "local",
-    "timestamp": "2026-11-23T17:36:36.121Z",
+    "timestamp": "2026-11-23T18:23:03.520Z",
     "clientType": "chrome-extension",
-    "totalParsed": 1711,
-    "submitted": 1667,
-    "failed": 0,
+    "totalParsed": 1608,
+    "submitted": 1559,
+    "failed": 8,
     "whitelistSkipped": 44,
-    "durationSeconds": 5274,
-    "received_at": "2026-11-23T17:36:59.398615Z"
-  },
-  {
-    "userUid": "281111531",
-    "taskType": "local",
-    "timestamp": "2026-11-23T17:41:12.573Z",
-    "clientType": "chrome-extension",
-    "totalParsed": 1605,
-    "submitted": 1557,
-    "failed": 9,
-    "whitelistSkipped": 43,
-    "durationSeconds": 18235,
-    "received_at": "2026-11-23T17:41:13.178623Z"
+    "durationSeconds": 9401,
+    "received_at": "2026-11-23T18:23:26.150123Z"
   }
 ]
